@@ -80,3 +80,40 @@
     /*border: 1px solid black;*/
     padding-right: 10px;
 }
+/*导航*/
+.navBox{
+    height: 35px;
+    background-color: #1369c0;
+    color: white;
+}
+.shopClass{
+    line-height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+    padding-right: 10px;
+ //   background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
+}
+.shopClass i{
+    background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
+    height:7px;
+    width:11px;
+    display: inline-block;
+    margin-left: 11px;
+}
+.nav{
+    display: inline-block;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    padding:0 35px;
+    color: white;
+    display: inline-block;
+}
+.active{
+    background-color: #4593FD;
+}
