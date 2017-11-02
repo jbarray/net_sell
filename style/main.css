@@ -211,15 +211,95 @@
 .specific .fr{
     margin-right: 200px;
 }
+.content{
+    margin: 60px;
+}
 /*家用电脑板块开始*/
 .computer{
     margin-top: -50px;
+    font-family: 微软雅黑, Serif, serif;
 }
 .className{
     font-size: 28px;
     font-weight: bold;
-    weigth:80px;
+    border: 1px solid red;
+    margin-bottom: 10px;
+    width: 900px;
+    display: inline-block;
+    /*遗留:文字不居中的问题*/
 }
 .className img{
     margin-right: 12px;
+}
+.showTitle .name{
+    margin-bottom: 10px;
+    padding-top: -10px;
+}
+   .showBody ul{
+    height: 398px;
+    width: 810px;
+    margin-left: 190px;
+    border-bottom: 2px solid #ff8c00;
+    border-right:1px solid gray;
+    border-top: 1px solid gray;
+}
+.showBody ul li{
+    display: inline-block;
+    vertical-align: middle;
+    width: 198px;
+    height: 398px;
+    padding:0;
+}
+.productFirst,.productSecond,.productThird{
+    border-right: 1px solid gainsboro;
+    padding:0;
+}
+.productTop{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.productBottom{
+    border-top: 1px solid gainsboro;
+    padding: 24px 10px;
+}
+.productTop img{
+    margin-bottom: 7px;
+}
+/*文字部分*/
+.TopProductName{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    padding:13px 0;
+    /*遗留问:字体*/
+}
+.TopProductPrice{
+    color: #ff8c00;
+    font-size: 13px;
+    padding-bottom:15px;
+}
+.productBottom img{
+    margin-bottom: 10px;
+}
+.bottomProductPrice{
+    background: url("../imgs/icon/yuan.jpg")left no-repeat;
+    padding-left: 15px;
+    margin: 5px;
+}
+.BottomProductName{
+    width: 95px;
+    height: 10px;
+}
+footer{
+    background-color: #aeaeae;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+footer ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
 }
