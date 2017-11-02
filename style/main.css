@@ -90,8 +90,10 @@
     line-height: 35px;
     font-size: 14px;
     font-family: "Microsoft YaHei", "微软雅黑", serif;
-    padding-right: 10px;
  //   background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
+}
+.shopClass h3{
+    padding-left: 41px;
 }
 .shopClass i{
     background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
@@ -99,6 +101,7 @@
     width:11px;
     display: inline-block;
     margin-left: 11px;
+    margin-right: 10px;
 }
 .nav{
     display: inline-block;
@@ -116,4 +119,107 @@
 }
 .active{
     background-color: #4593FD;
+}
+
+
+.productClass{
+    background-color: #4593FD;
+}
+.selectClass{
+    background-color: #4593FD;
+    padding:15px 10px;
+    height: 45px;
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+    border-bottom: 1px solid deepskyblue;
+    /*遗留:加三角符号*/
+}
+.importantProduct{
+    background-color: #1369c0;
+    font-size: 12px;
+    text-decoration: underline;
+    border-radius: 5px;
+    padding:0 2px;
+}
+.importantClass{
+    background-color: #1369c0;
+    font-size: 12px;
+    border-radius: 5px;
+    padding:0 2px;
+}
+.normalProduct{
+    font-size: 12px;
+}
+.nowClass{
+    background-color: white;
+    color: black;
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+}
+.AD{
+    /*margin-left:400px;*/
+    margin-top: -414px;
+    margin-right: 0;
+}
+.specificClass{
+    border: 1px solid gainsboro;
+    color: black;
+    width: 520px;
+    padding:0 5px;
+    margin-left: 171px;
+}
+.specific{
+    /*line-height: 25px;*/
+    border-bottom:1px solid gainsboro;
+    font-size: 13px;
+}
+.kinds{
+    color:#1369c0;
+    font-weight:bold;
+    border:1px solid red;
+    /*line-height: 25px;*/
+    display: inline-block;
+}
+.goods{
+    color: dimgray;
+    font-weight:normal;
+    display: inline-block;
+    padding:10px;
+    line-height: 28px;
+}
+.specific .button{
+    border:none;
+    background-color:#1369c0;
+    margin:20px 0;
+    line-height: 55px;
+    padding: 3px;
+    color: white;
+}
+.link{
+    border:none;
+}
+.specific .rightButton{
+    margin:15px 20px;
+}
+.specific img{
+    margin-top: 5px;
+    margin-left:2px;
+    /*border: 1px solid red;*/
+}
+.specific .fr{
+    margin-right: 200px;
+}
+/*家用电脑板块开始*/
+.computer{
+    margin-top: -50px;
+}
+.className{
+    font-size: 28px;
+    font-weight: bold;
+    weigth:80px;
+}
+.className img{
+    margin-right: 12px;
 }
