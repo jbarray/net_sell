@@ -3,12 +3,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-.leftArea{
-     float: left;
- }
-.rightArea{
-    float: right;
-}
 /*top的第一部分topBar*/
 .topBar{
     background-color:#f7f7f7;
@@ -222,20 +216,23 @@
 .className{
     font-size: 28px;
     font-weight: bold;
-    border: 1px solid red;
-    margin-bottom: 10px;
     width: 900px;
     display: inline-block;
-    /*遗留:文字不居中的问题*/
+    /*遗留:文字不居中的问题 已经解决*/
+}
+.className div{
+    vertical-align: middle;
 }
 .className img{
     margin-right: 12px;
 }
-.showTitle .name{
-    margin-bottom: 10px;
-    padding-top: -10px;
+.computerTitle{
+    padding-top: -20px;
 }
-   .showBody ul{
+.foodTitle{
+    margin-top: 10px;
+}
+.showBody ul{
     height: 398px;
     width: 810px;
     margin-left: 190px;
@@ -291,6 +288,7 @@
     width: 95px;
     height: 10px;
 }
+/*脚注*/
 footer{
     background-color: #aeaeae;
     text-align: center;
