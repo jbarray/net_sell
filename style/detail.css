@@ -1,0 +1,197 @@
+.bodyPart{
+    background-color: gainsboro;
+    padding-top: 10px;
+    font-family: 微软雅黑,serif;
+}
+.productBar{
+    margin:10px 0;
+}
+.productBar span{
+    font-weight: bold;
+}
+.productSelect{
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+.productSelect div{
+    vertical-align: top;
+}
+/*下单部分左边图片开始*/
+.productPicture{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+}
+.bigPic{
+    margin: 20px 0;
+}
+/*下单部分右边内容开始*/
+.productCount{
+    width: 680px;
+    padding:25px 0 10px 10px;
+    border-left: 1px solid darkgray;
+    display: inline-block;
+}
+.productName{
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 25px;
+    margin-left: 16px;
+}
+.property{
+    margin:20px 16px ;
+
+}
+.propertyName{
+    margin-right: 0;
+    width:60px;
+    font-size: 13px;
+}
+.p1 span{
+    color: mediumvioletred;
+
+}
+.p1 .price{
+    font-size: 1.4em;
+}
+.p2 .temp{
+    padding:5px;
+}
+.activity{
+    margin-right: 5px;
+    padding:5px 5px 5px 10px ;
+}
+.activitySquare{
+    display:block;
+    width:0;
+    height:0;
+    border-width:13px 13px 13px 0;
+    border-style:solid;
+    border-color:transparent darkorange transparent transparent;/*透明 黄 透明 透明 */
+    position:absolute;
+    margin-top: -5px;
+    margin-left: 52px;
+}
+/*遗留问题:小圆*/
+.circle{
+    height:100px;
+    width:100px;
+    border-radius:50px;
+    background-color:black ;
+    margin-top: -20px;
+}
+.p3 select{
+    border:1px solid darkgray;
+    margin-right: 10px;
+}
+.p4 .color{
+    margin-right:5px;
+    padding:10px 20px;
+    border:1px solid darkgray;
+    background-color: white;
+}
+.p5 div{
+    vertical-align: middle;
+}
+.propertyName{
+    display: inline-block;
+}
+.sizes{
+    display: inline-block;
+    width:500px;
+    line-height: 40px;
+}
+.size{
+    margin-right:5px;
+    padding:5px;
+    border:1px solid darkgray;
+    background-color: white;
+}
+.buyNumber{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.buyNumber span{
+    border-top:1px solid darkgray;
+    border-bottom:1px solid darkgray;
+    padding:8px 15px;
+    background-color: ghostwhite;
+}
+.buyNumber .sign{
+    border:1px solid darkgray;
+    padding:8px 5px;
+    background-color:ghostwhite;
+}
+#CustomerSelect{
+    background-color: gainsboro;
+    margin:15px 10px 15px 0;
+    padding:10px 0;
+ }
+.p8{
+    margin-bottom: 10px;
+}
+.inTo img,.inTo span{
+    vertical-align: bottom;
+}
+.inTo{
+    /*margin-left: 20px;*/
+    padding:10px;
+    color: white;
+    margin-left: 40px;
+    background-color: darkorange;
+    width:100px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+.p9{
+    margin-left: 11px;
+}
+/*Class部分*/
+.digitKinds{
+    width: 230px;
+    border-top: 2px solid royalblue;
+}
+.part{
+    border:1px solid darkgray;
+    background-color: white;
+    font-family: 微软雅黑, serif;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.kindPicture {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.kindsTitle{
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid darkgray;
+    padding:0 15px;
+}
+.kind{
+    padding: 20px 20px 10px 20px;
+}
+.kindName{
+    font-size: 13px;
+    color: #aeaeae;
+}
+.kindPrice{
+    color: red;
+}
+
+
+/*脚注*/
+footer{
+    background-color: #aeaeae;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+footer ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
