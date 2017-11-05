@@ -1,0 +1,98 @@
+.buyStep{
+   margin-left: 220px;
+    padding-left: 50px;
+}
+#img1{
+    padding-left: 25px;
+    padding-top: 13px;
+}
+#img2{
+    margin-top: -3px;
+}
+.logo{
+    margin-left: -30px;
+}
+/*信息栏开始*/
+.content{
+    background-color: white;
+}
+.part{
+    margin:10px 0;
+    border:1px solid gainsboro;
+    color: #2f2f38;
+}
+.changeToRed{
+    color: red;
+    margin-right: 3px;
+}
+.title{
+    padding:3px 10px;
+    font-size: 17px;
+    line-height: 25px;
+    background-color: ghostwhite;
+}
+.massage{
+    padding:20px;
+}
+.cancel{
+    padding:2px 18px;
+    margin-left: 10px;
+}
+.sure{
+    border:none;
+    margin:20px 0 0 0;
+    padding:3px 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+}
+.submit{
+    border:none;
+    margin:10px 0 20px 0;
+    padding:5px 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+input,select{
+    border:1px solid gainsboro;
+    padding: 3px;
+}
+li{
+    margin-top:10px ;
+    font-size: 14px;
+}
+/*div span{*/
+    /*vertical-align: middle;*/
+/*}*/
+li div{
+    display: inline-block;
+    width: 70px;
+    padding: 5px;
+}
+.largeInput{
+    width:300px;
+}
+.middleInput{
+    width:150px;
+}
+.shortInput{
+    width:60px;
+}
+/*.payInput{*/
+    /*margin-bottom: 20px;*/
+/*}*/
+label input{
+    vertical-align:middle;
+}
+.payInput{
+    line-height: 30px;
+}
+.goToBuyCar{
+    font-size: 13px;
+}
+.part4 ul li{
+    display: inline-block;
+    /*border:1px solid red;*/
+    width: 200px;
+}
