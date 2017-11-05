@@ -127,7 +127,7 @@
     background-color: gainsboro;
     margin:15px 10px 15px 0;
     padding:10px 0;
- }
+}
 .p8{
     margin-bottom: 10px;
 }
@@ -197,12 +197,12 @@
 }
 .introduce{
     width:50%;
-     height:30px;
+    height:30px;
     margin-left:0;
-     background-color: royalblue;
-     color: white;
+    background-color: royalblue;
+    color: white;
     /*遗留问题:icon有白底*/
- }
+}
 .introduce img,.introduce span{
     vertical-align: middle;
 }
@@ -313,7 +313,7 @@
     margin-left: -10px;
 }
 /*.commentTitle ul{*/
-    /*display: inline-block;*/
+/*display: inline-block;*/
 /*}*/
 .commentTitle{
     height: 50px;
@@ -420,7 +420,7 @@
     border-bottom:none;
 }
 /*.detailMassage{*/
-    /*padding: 20px;*/
+/*padding: 20px;*/
 /*}*/
 .intention{
     background-color:gainsboro;
