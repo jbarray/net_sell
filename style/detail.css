@@ -147,6 +147,8 @@
 }
 .p9{
     margin-left: 11px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 /*Class部分*/
 .digitKinds{
@@ -180,7 +182,274 @@
 .kindPrice{
     color: red;
 }
+/*右边第一部分*/
+.ProduceBody{
+    margin-left:250px;
+}
+.introducePro,.commentPro,.otherDetails{
+    margin-top: 10px;
+    border:1px solid darkgray;
+}
+.title{
 
+    line-height: 30px;
+    text-align: center;
+}
+.introduce{
+    width:50%;
+     height:30px;
+    margin-left:0;
+     background-color: royalblue;
+     color: white;
+    /*遗留问题:icon有白底*/
+ }
+.introduce img,.introduce span{
+    vertical-align: middle;
+}
+.comment{
+    width:50%;
+    height:29px;
+    border-bottom: 1px solid darkgray;
+}
+.comment img,.comment span{
+    vertical-align: middle;
+}
+.img{
+    text-align: center;
+    margin:60px 0 40px 0;
+}
+.words,.picture{
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+.titleName{
+    font-size: 16px;
+    color: #4593FD;
+    border-bottom:2px solid #4593FD;
+    width:10%;
+    display: inline-block;
+}
+.wordTitle span{
+    color: dimgray;
+    border-bottom:2px solid lightgray;
+    width:85%;
+    margin-left: 0;
+    display: inline-block;
+}
+.wordTitle div,span{
+    vertical-align:bottom;
+}
+.content{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.content2{
+    font-size: 14px;
+    margin-top: 17px;
+    margin-bottom: 40px;
+}
+.contentPic{
+    margin-left: -10px;
+}
+/*评价部分*/
+.commentPro{
+    margin-top: 5px;
+}
+.commentHead{
+    background-color: white;
+    padding: 5px;
+}
+.commentProduct{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.commentFigure div{
+    vertical-align: middle;
+}
+.figure{
+    color: darkorange;
+    font-size: 4em;
+    margin-right: 20px;
+    display: inline-block;
+}
+.details{
+    display: inline-block;
+}
+.figure span,.figure div{
+    vertical-align: middle;
+}
+.figure span{
+    color: dimgray;
+    font-size:25px;
+}
+.bar ul{
+    width:560px;
+    background-color: #aeaeae;
+    margin-bottom: 10px;
+}
+.bar ul li{
+    display: inline-block;
+    padding:5px 30px;
+}
+.mark{
+    text-align: center;
+    width:16px;
+    margin-left: 460px;
+    margin-bottom: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: dimgray;
+    margin-top: -8px;
+}
+#square{
+    display:block;
+    width:0;
+    height:0;
+    border-width:18px 18px 0;
+    border-style:solid;
+    border-color:dimgray transparent transparent;/*黄 透明 透明 */
+    position:absolute;
+    margin-left: -10px;
+}
+/*.commentTitle ul{*/
+    /*display: inline-block;*/
+/*}*/
+.commentTitle{
+    height: 50px;
+}
+.commentTitle ul li{
+    display: inline-block;
+    padding:10px 5px;
+    margin:5px 20px;
+}
+.rightOrder .order{
+    display: inline-block;
+    padding:5px;
+    margin:10px 0;
+    border: 1px solid lightgray;
+}
+#new{
+    position: absolute;
+    margin-left: 715px;
+    margin-top: -3px;
+    padding:0 3px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+.commentBody{
+    background-color: white;
+}
+.customerComment{
+    margin-left:30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.customerMassage{
+    margin-top: 30px;
+}
+.realComment{
+    margin-left: 90px;
+    margin-right: 30px;
+    height: 100px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.starNum{
+    display: inline-block;
+    width:280px;
+}
+.Time{
+    display: inline-block;
+    /*margin-left: 300px;*/
+    padding-left: 150px;
+}
+.scoreMassage{
+    margin-left: 5px;
+    margin-right: 60px;
+}
+.changePage{
+    padding-bottom: 20px;
+}
+.changePage ul{
+    text-align: right;
+    padding-right: 15px;
+}
+.changePage ul li{
+    display: inline-block;
+    border:1px solid gainsboro;
+    padding:5px;
+}
+.changePage .specialLi{
+    border:none;
+}
+.pageNum{
+    border:1px solid gainsboro;
+    padding: 2px 5px;
+    margin:0 3px;
+}
+/*咨询部分*/
+.otherDetails{
+    background-color: white;
+    border:none;
+}
+.detailTitle ul{
+    display: inline-block;
+}
+.detailTitle ul li{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    padding:6px 10px;
+    background-color:gainsboro;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid  #11456b;
+    margin-right:-4px;
+}
+.help{
+    display: inline-block;
+    border-bottom: 1px solid  #11456b;
+    padding:7px 10px 7px 205px;
+}
+#nowPage{
+    border-top: 1px solid  #11456b;
+    border-right: 1px solid  #11456b;
+    border-left: 1px solid #11456b;
+    border-bottom:none;
+}
+/*.detailMassage{*/
+    /*padding: 20px;*/
+/*}*/
+.intention{
+    background-color:gainsboro;
+    padding:20px;
+    margin:20px 20px 0 20px;
+}
+.question{
+    font-weight: bold;
+    font-size: 14px;
+}
+.webAnswer{
+    margin-top: 5px;
+    padding:10px 30px;
+    background-color:gainsboro;
+}
+.upSquare{
+    display:block;
+    width:0;
+    height:0;
+    border-width: 0 10px 10px;
+    border-style:solid;
+    border-color: transparent transparent gainsboro;/*黄 透明 透明 */
+    position:absolute;
+    margin-left: -10px;
+    margin-top: -16px;
+}
+.changeColor{
+    color: dimgray;
+}
 
 /*脚注*/
 footer{
