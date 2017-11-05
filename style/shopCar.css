@@ -30,7 +30,9 @@
     font-size: 17px;
     line-height: 25px;
     background-color: ghostwhite;
+    border-bottom: 1px solid gainsboro;
 }
+/*货品清单*/
 .massage{
     padding:20px;
 }
@@ -44,14 +46,6 @@
     padding:3px 20px;
     font-weight: bold;
     background-color: blue;
-    color: white;
-}
-.submit{
-    border:none;
-    margin:10px 0 20px 0;
-    padding:5px 20px;
-    font-weight: bold;
-    background-color: red;
     color: white;
 }
 input,select{
@@ -88,11 +82,87 @@ label input{
 .payInput{
     line-height: 30px;
 }
+/*送货清单*/
+.part4 .massage{
+    padding:20px 0;
+}
 .goToBuyCar{
     font-size: 13px;
 }
 .part4 ul li{
     display: inline-block;
-    /*border:1px solid red;*/
+    width: 100px;
+    text-align: center;
+}
+.part4 ul .firstLi{
+    margin-right: 30px;
+    width: 420px;
+    text-align: left;
+}
+.row2 ul .specialName{
+    width: 370px;
+    margin-right: 30px;
+    text-align: left;
+}
+.row2 ul li .name{
+    height: 30px;
+    width: 400px;
+    line-height: 30px;
+    text-align: left;
+}
+.row2 img{
+    margin:10px ;
+}
+.part4  ul li .productName{
+    width: 450px;
+}
+.row1,.row2{
+    border-bottom: 1px solid gainsboro;
+    padding:0 20px 10px 20px;
+}
+.row3{
+    padding:0 20px 10px 20px;
+}
+.row3 ul li{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+/*若您对*/
+#firstLi{
+    margin-bottom: 40px;
+}
+#thirdLi{
+    padding-top:5px;
+
+}
+#thirdLi img{
+    margin-top: 10px;
+}
+.presentName{
     width: 200px;
+}
+/*无货*/
+.presentName span{
+    color: crimson;
+    font-weight: bold;
+}
+/*第五部分 订单清算*/
+.part5 .massage{
+    text-align: right;
+    width:97%;
+    color: darkgrey;
+    font-size: 15px;
+}
+.part5 .massage .total{
+    font-size: 2em;
+}
+.submit{
+    font-size: 20px;
+    border:none;
+    margin:20px 0 20px 0;
+    padding:5px 35px;
+    /*font-weight: bold;*/
+    background-color: red;
+    color: white;
 }
