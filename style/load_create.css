@@ -1,0 +1,92 @@
+/*头部*/
+.loginLogo .comWidth{
+    width: 460px;
+}
+.loginLogo{
+    /*height:100px;*/
+    height: 85px;
+    background-color: royalblue;
+    text-align: center;
+}
+.loginLogo span{
+    color: white;
+    font-size: 22px;
+    line-height: 85px;
+    padding-left: 24px;
+    float: left;
+    font-family: 微软雅黑,serif;
+}
+.loginLogo .logo{
+    /*vertical-align: middle;*/
+    /*margin-left: 60px;*/
+    /*margin-top: 20px;*/
+    /*position: absolute;*/
+}
+/*登录部分*/
+.body{
+    background-color: white;
+}
+.content{
+    width: 458px;
+    margin:10px auto;
+    position: relative;
+}
+.login_cont{
+    padding:15px 76px;
+    border:1px solid #e1e1e1;
+}
+.accountMassage .l_tit{
+    color: #6666;
+    line-height: 20px;
+}
+.accountMassage input{
+    padding:5px 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    border:1px solid #e1e1e1;
+    line-height: 32px\9;
+}
+.accountMassage .img{
+    position: absolute;
+    float: right;
+    margin-left: 280px;
+    margin-top:-28px;
+}
+.detail{
+    margin-bottom: 28px;
+    margin-top: 17px;
+}
+.detail input,.detail span{
+    vertical-align: bottom;
+}
+.content button{
+    width: 309px;
+    height: 36px;
+}
+.otherMethod{
+    padding-top: 34px;
+}
+
+.otherMethod p span,.otherMethod p img{
+    vertical-align: top;
+}
+.otherMethod span{
+    color: #999;
+    margin:0 2px;
+}
+.createAccount a{
+    /*background-color: green;*/
+    /*border-radius:2px;*/
+    /*font-size: 15px;*/
+    /*color: white;*/
+    background: url("../imgs/imge/load/createAccount.jpg")left top no-repeat;
+    padding:5px 10px;
+    /*margin-left: 60%;*/
+    /*margin-top: -70px;*/
+    width: 115px;
+    height: 31px;
+    text-align: center;
+    position: absolute;
+    right: 31px;
+    bottom: -41px;
+}
