@@ -39,9 +39,9 @@ ul li{
     background: url("../imgs/icon/star.jpg")left center no-repeat;
     padding-left: 19px;font-weight: bold;
 }
-.topBar a:hover{
-    color: red;
-}
+/*.topBar a:hover{*/
+    /*color: red;*/
+/*}*/
 /*top的第二部分logoBar*/
 .logoBar{
     background-color:royalblue;

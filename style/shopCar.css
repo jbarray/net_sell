@@ -22,19 +22,22 @@
     color: #2f2f38;
 }
 .changeToRed{
-    color: red;
+    color: #e50007;
     margin-right: 3px;
 }
 .title{
-    padding:3px 10px;
+    padding:3px 12px;
     font-size: 17px;
-    line-height: 25px;
-    background-color: ghostwhite;
-    border-bottom: 1px solid gainsboro;
+    line-height: 32px;
+    background-color:#f2f2f2;
+    border-bottom: 1px solid #e3e3e3;
 }
 /*货品清单*/
-.massage{
-    padding:20px;
+.part1 .massage{
+    padding:25px 39px;
+}
+.part3 .massage{
+    padding:25px 39px;
 }
 .cancel{
     padding:2px 18px;
@@ -43,17 +46,32 @@
 .sure{
     border:none;
     margin:20px 0 0 0;
-    padding:3px 20px;
+    padding:0 22px;
+    line-height: 28px;
     font-weight: bold;
-    background-color: blue;
+    background-color: #4694fe;
     color: white;
+    cursor: pointer;
 }
-input,select{
-    border:1px solid gainsboro;
-    padding: 3px;
+.part1 select{
+    padding:3px 24px 3px 10px;
+    margin-bottom: 5px;
+    /*margin-bottom: 3px;*/
+    line-height: 20px;
+    border:1px solid  #c2c2c2;
+    /*删除原样式*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("../imgs/icon/square_up.png") no-repeat right center ;
+}
+input{
+    border:1px solid  #c2c2c2;
+    padding-left:10px;
+    line-height: 22px;
 }
 li{
-    margin-top:10px ;
+    margin-top:12px ;
     font-size: 14px;
 }
 /*div span{*/
@@ -65,14 +83,24 @@ li div{
     padding: 5px;
 }
 .largeInput{
-    width:300px;
+    width:390px;
 }
 .middleInput{
-    width:150px;
+    width:110px;
+}
+.littleShortInput{
+    width: 97px;
 }
 .shortInput{
-    width:60px;
+    width:62px;
 }
+#or{
+    margin-left: 10px;
+    margin-right: 13px;
+}
+/*.part1 li span,.part1 li label {*/
+    /*vertical-align: middle;*/
+/*}*/
 /*.payInput{*/
     /*margin-bottom: 20px;*/
 /*}*/
@@ -80,14 +108,82 @@ label input{
     vertical-align:middle;
 }
 .payInput{
-    line-height: 30px;
+    /*line-height: 30px;*/
 }
-/*送货清单*/
+.payInput label span{
+    margin-left: 15px;
+    /*margin-bottom: 32px;*/
+}
+.payInput label span img,.payInput label span span{
+    vertical-align: middle;
+}
+.payInput label span span{
+    margin-left: -1px;
+}
+/*发票信息*/
+.part2 .massage{
+    padding: 15px 39px 0 39px;
+}
+.part2 .byWeChat{
+    margin-bottom: 25px;
+}
+.part2 .byMoney{
+    margin-bottom: 32px;
+}
+.part3 .massage{
+    padding-top: 15px;
+}
+.part3 .massage ul{
+    margin-top: 18px;
+}
+.part3 .massage ul select{
+   line-height: 21px;
+    height: 21px;
+    width: 110px;
+    border:1px solid  #c2c2c2;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+#name select{
+    line-height: 21px;
+    height: 21px;
+    width: 50px;
+    border:1px solid  #c2c2c2;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+#name input{
+    width: 140px;
+}
+.part3 .save{
+    width: 70px;
+    height: 25px;
+    background-color: #4391fc;
+    color: white;
+    border:none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.part3 button{
+    margin-top: 12px;
+}
+.part3 .massage ul .img{
+    border:1px solid  #c2c2c2;
+    padding:0 2px;
+    width: 17px;
+    height: 11px;
+    margin-left: -15px;
+    background-color:#f1f1f1;
+}
+    /*送货清单*/
 .part4 .massage{
-    padding:20px 0;
+    padding:0 0  20px 0;
 }
 .goToBuyCar{
     font-size: 13px;
+    margin-right: 21px;
 }
 .part4 ul li{
     display: inline-block;
@@ -109,6 +205,7 @@ label input{
     width: 400px;
     line-height: 30px;
     text-align: left;
+    color:#333333;
 }
 .row2 img{
     margin:10px ;
@@ -116,42 +213,57 @@ label input{
 .part4  ul li .productName{
     width: 450px;
 }
-.row1,.row2{
+.row1{
     border-bottom: 1px solid gainsboro;
-    padding:0 20px 10px 20px;
+    padding:0 33px 10px 33px;
+    color:#666666;
+}
+.row2{
+    border-bottom: 1px solid gainsboro;
+    padding:0 33px 10px 35px;
+    height: 98px;
+    color:#666695;
 }
 .row3{
-    padding:0 20px 10px 20px;
+    padding:0 20px 10px 30px;
 }
 .row3 ul li{
     display: block;
     width: 100%;
     text-align: left;
 }
+#mark{
+    margin-right: 10px;
+    width:12px;
+    height:12px;
+}
 /*若您对*/
 #firstLi{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    color: #3377ff;
 }
 #thirdLi{
-    padding-top:5px;
-
+    padding-top:0;
 }
 #thirdLi img{
     margin-top: 10px;
 }
 .presentName{
     width: 200px;
+    padding:2px ;
+    color: #666666;
 }
 /*无货*/
 .presentName span{
-    color: crimson;
+    color:#d70000;
     font-weight: bold;
 }
 /*第五部分 订单清算*/
 .part5 .massage{
     text-align: right;
-    width:97%;
-    color: darkgrey;
+    margin-right: 30px;
+    color: #929292;
+    padding-top: 40px;
     font-size: 15px;
 }
 .part5 .massage .total{
@@ -160,9 +272,24 @@ label input{
 .submit{
     font-size: 20px;
     border:none;
-    margin:20px 0 20px 0;
+    margin:18px 0 28px 0;
     padding:5px 35px;
     /*font-weight: bold;*/
     background-color: red;
     color: white;
+    cursor: pointer;
+}
+/*脚注*/
+footer{
+    background-color: #aeaeae;
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+footer ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
 }
