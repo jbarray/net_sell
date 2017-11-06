@@ -4,12 +4,14 @@
     font-family: 微软雅黑,serif;
 }
 .productBar{
-    margin:10px 0;
+    margin:25px 0 12px 0;
+    font-size: 13px;
 }
 .productBar span{
     font-weight: bold;
 }
 .productSelect{
+    width:1000px;
     margin-bottom: 10px;
     background-color: white;
     border: 1px solid darkgray;
@@ -24,14 +26,17 @@
     width: 300px;
 }
 .bigPic{
-    margin: 20px 0;
+    margin:18px 0 21px 0;
 }
 /*下单部分右边内容开始*/
 .productCount{
-    width: 680px;
+    width: 682px;
+    margin:0;
     padding:25px 0 10px 10px;
     border-left: 1px solid darkgray;
     display: inline-block;
+    color:#666666;
+
 }
 .productName{
     font-weight: bold;
@@ -40,12 +45,13 @@
     margin-left: 16px;
 }
 .property{
-    margin:20px 16px ;
+    margin:17px 16px ;
 
 }
 .propertyName{
     margin-right: 0;
-    width:60px;
+    width:55px;
+    padding-right: 13px;
     font-size: 13px;
 }
 .p1 span{
@@ -60,36 +66,60 @@
 }
 .activity{
     margin-right: 5px;
-    padding:5px 5px 5px 10px ;
+    padding:1px 5px 1px 10px ;
+    text-align: right;
+    width: 47px;
+    height: 19px;
+    line-height: 19px;
+    color: white;
 }
 .activitySquare{
     display:block;
     width:0;
     height:0;
-    border-width:13px 13px 13px 0;
+    border-width:9px 9px 9px 0;
     border-style:solid;
     border-color:transparent darkorange transparent transparent;/*透明 黄 透明 透明 */
     position:absolute;
-    margin-top: -5px;
-    margin-left: 52px;
+    /*margin-top: 2px;*/
+    margin-left: 64px;
 }
 /*遗留问题:小圆*/
 .circle{
-    height:100px;
-    width:100px;
+    height:5px;
+    width:5px;
     border-radius:50px;
-    background-color:black ;
-    margin-top: -20px;
+    background-color:white;
+    margin-top: 7px;
+    margin-left: -8px;
+    position: absolute;
+}
+.p3 span,.p3 div{
+    vertical-align: middle;
+}
+.p4{
+    margin-top: 27px;
+    margin-bottom: 22px;
+}
+.p5{
+    margin-bottom: 22px;
 }
 .p3 select{
     border:1px solid darkgray;
     margin-right: 10px;
+    /*margin-bottom: 20px;*/
+    width: 124px;
+    height:25px;
+    /*遗留问题:蓝色按钮*/
 }
-.p4 .color{
-    margin-right:5px;
-    padding:10px 20px;
+.color{
+    /*width:83px;*/
+    /*height:33px;*/
+    margin:15px 10px 15px 0;
+    padding:11px 30px;
     border:1px solid darkgray;
     background-color: white;
+    color:#000000;
 }
 .p5 div{
     vertical-align: middle;
@@ -99,67 +129,98 @@
 }
 .sizes{
     display: inline-block;
-    width:500px;
     line-height: 40px;
 }
 .size{
     margin-right:5px;
-    padding:5px;
+    padding:9px 7px;
     border:1px solid darkgray;
     background-color: white;
 }
 .buyNumber{
     margin-right: 10px;
     font-size: 14px;
+    height: 32px;
 }
 .buyNumber span{
     border-top:1px solid darkgray;
     border-bottom:1px solid darkgray;
-    padding:8px 15px;
-    background-color: ghostwhite;
+    padding:10px 25px;
+    height: 32px;
+    background-color:#ffffff;
 }
 .buyNumber .sign{
     border:1px solid darkgray;
-    padding:8px 5px;
-    background-color:ghostwhite;
+    padding:10px 5px;
+    height: 32px;
+    background-color:#efefef;
 }
 #CustomerSelect{
     background-color: gainsboro;
     margin:15px 10px 15px 0;
-    padding:10px 0;
+    padding:20px 0 25px 0;
 }
-.p8{
-    margin-bottom: 10px;
+.p7{
+
 }
-.inTo img,.inTo span{
-    vertical-align: bottom;
-}
-.inTo{
-    /*margin-left: 20px;*/
-    padding:10px;
-    color: white;
-    margin-left: 40px;
-    background-color: darkorange;
-    width:100px;
-    display: inline-block;
+.p7 .propertyName{
+    color: #666666;
     font-size: 15px;
     font-weight: bold;
 }
+.p7 span{
+    margin-left: -20px;
+    font-size: 15px;
+    font-weight: bold;
+    color:#0479ca;
+}
+.p8{
+    padding-top:33px;
+    padding-bottom:10px;
+    height: 90px;
+}
+.inTo img,.inTo span{
+    vertical-align: middle;
+}
+.inTo img{
+    margin-left: 0;
+}
+.inTo{
+    /*margin-left: 20px;*/
+    /*padding:10px;*/
+    color: white;
+    margin-left: 83px;
+    background-color: darkorange;
+    width:183px;
+    height:47px;
+    line-height: 47px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    /*font-weight: bold;*/
+}
+.p8 .line{
+    position: absolute;
+    margin:-20px 40px;
+    width:1px ;
+    height: 90px;
+    background-color: #e5e5e5;
+}
 .p9{
     margin-left: 11px;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 22px;
 }
 /*Class部分*/
 .digitKinds{
-    width: 230px;
+    width: 190px;
     border-top: 2px solid royalblue;
 }
 .part{
     border:1px solid darkgray;
     background-color: white;
     font-family: 微软雅黑, serif;
-    line-height: 25px;
+    line-height: 20px;
+    padding-bottom: 24px;
     margin-bottom: 10px;
 }
 .kindPicture {
@@ -171,23 +232,28 @@
     font-weight: bold;
     border-bottom: 1px solid darkgray;
     padding:0 15px;
+    height: 39px;
+    line-height: 39px;
+    background-color: #f3f3f3;
 }
 .kind{
-    padding: 20px 20px 10px 20px;
+    font-family:"Adobe 宋体 Std L",serif;
+    padding: 20px 8px 10px 18px;
 }
 .kindName{
-    font-size: 13px;
-    color: #aeaeae;
+    font-size: 9px;
+    color: #999999;
 }
 .kindPrice{
-    color: red;
+    color: #de0000;
+    font-family:微软雅黑,serif;
 }
 /*右边第一部分*/
 .ProduceBody{
     margin-left:250px;
 }
 .introducePro,.commentPro,.otherDetails{
-    margin-top: 10px;
+    margin-top: 14px;
     border:1px solid darkgray;
 }
 .title{
@@ -449,6 +515,10 @@
 }
 .changeColor{
     color: dimgray;
+}
+/*共用部分*/
+.beChoice{
+    border:1px solid #317ee7;
 }
 
 /*脚注*/
