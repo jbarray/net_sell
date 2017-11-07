@@ -87,7 +87,10 @@
 //   background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
 }
 .shopClass h3{
-    padding-left: 41px;
+    padding-left: 43px;
+    padding-right: 24px;
+    /*width:187px;*/
+    /*text-align: right;*/
 }
 .shopClass img{
     margin-left: 8px;
@@ -111,12 +114,21 @@
     background-color: #4593FD;
 }
 /*Class部分*/
+.digitContent{
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+.content{
+    padding-bottom: 20px;
+    border-bottom: 1px solid green;
+    margin-bottom: 50px;
+}
 .digitKinds{
     border:1px solid darkgray;
     background-color: gainsboro;
     font-family: 微软雅黑, serif;
     line-height: 30px;
-    width: 169px;
+    width: 190px;
 }
 .kindsTitle{
     font-size: 15px;
@@ -127,8 +139,11 @@
 }
 .kind{
     border-bottom: 1px dashed darkgray;
-    padding: 5px 30px;
+    padding: 12px 0 10px 0;
     vertical-align: top;
+}
+.kind3{
+    border-bottom: 1px solid darkgray;
 }
 .lastKind{
     border-bottom:none;
@@ -139,23 +154,29 @@
 .leftKind{
     display: inline-block;
     width: 65px;
+    padding-left: 20px;
+    line-height: 25px;
 }
 .kindName{
     font-weight: bold;
     font-size: 13px;
+    line-height: 24px;
+    margin-left: 12px;
 }
 #leftPro{
     background-color: white;
-    padding-top:20px;
-    padding-right: 7px;
-    padding-left: 5px;
+    padding-top:10px;
+    padding-right: 9px;
+    padding-left: 13px;
     line-height: 20px ;
 }
 #leftPro li{
     height: 80px;
 }
 .leftPic{
-    width: 65px;
+    width: 70px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
     text-align: center;
 }
 .massage{
@@ -167,7 +188,8 @@
 }
 /*右边开始*/
 .choice{
-    margin-left: 18%;
+    margin-left: 205px;
+    padding-top: 12px;
 }
 .feature{
     margin-left: 5px;
@@ -177,53 +199,114 @@
     border-bottom:1px solid darkgray;
     margin-left: 5px;
 }
+.borderSpecialFea li{
+    margin-right: 100px;
+}
 .featureName{
     display: inline-block;
     width: 80px;
-    padding:15px 10px;
+    padding:10px 40px 10px 0;
+    line-height: 15px;
     text-align: right;
 }
 .borderSpecialFea .featureName,.row{
     vertical-align: top;
+}
+.row .undefined{
+    width: 30px;
+    height: 14px;
+    margin-right: 30px;
+    background-color: #1d7ad9;
+    padding:5px ;
+    margin-top: 5px;
+}
+.row .undefinedBlank{
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    /*margin-right: 30px;*/
+    /*background-color: #1d7ad9;*/
 }
 .row{
     display: inline-block;
 }
 .row li{
     display: inline-block;
-    line-height: 25px;
-    padding:10px 10px 10px 0;
+    line-height: 15px;
+    padding:5px 10px 5px 0;
 }
-.more{
+.row2 li{
+    width: 110px;
+}
+.row3 li{
+    width: 160px;
+}
+.row4 li{
+    width: 100px;
+}
+/*.row5 li{*/
+    /*width: 115px;*/
+/*}*/
+.row .more{
     /*border:1px solid red;*/
-    margin-left: 500px;
-    margin-top: -46px;
+    margin-left: 550px;
+    margin-top: -30px;
+    margin-right: 0;
     position: absolute;
     float: right;
     text-align: right;
+    width: 100px;
+    border:1px solid red;
     /*background: url("../imgs/icon/downRocket_black.png")right no-repeat;*/
 }
+.row3 .more{
+    padding-top: 8px;
+}
+.row5 .more{
+     padding-top: 8px;
+ }
 select{
     border:1px solid darkgray;
-    padding: 5px;
+    /*padding: 5px;*/
+    height: 22px;
+   padding-bottom: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*margin-bottom: 2px;*/
     /*遗留问题:框内出现向下箭头*/
+}
+.choice select{
+    padding-right: 18px;
+    padding-left: 8px;
+    background: url("../imgs/icon/downRocket_black.png")no-repeat right center;
+    background-color: white;
+    margin-bottom: 2px;
+}
+.showTitle select{
+    padding-right: 24px;
+    padding-left: 12px;
+    background: url("../imgs/icon/square_up.png")no-repeat right center;
+    background-color: white;
+    margin-bottom: 2px;
 }
 /*展示商品*/
 .showProduct{
-    margin-left: 18%;
-    margin-top: 5px;
+    margin-left: 200px;
+    margin-top: 15px;
 }
 
 .digitPro ul{
-    padding-left:5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 0 0 15px 60px;
     margin-top: -2px;
 }
 .digitPro ul li{
     display: inline-block;
-    width: 170px;
-    padding:0 15px;
+    /*width: 170px;*/
+    /*padding:0 15px;*/
+    padding-right: 36px;
+    padding-left: 10px;
+    vertical-align: top;
 }
 .firstLine{
     /*border-top:2px solid darkgray ;*/
@@ -232,6 +315,8 @@ select{
     background-color:gainsboro ;
     border: 1px solid darkgray;
     font-size: 15px;
+    height: 33px;
+    line-height: 33px;
     font-family: "Adobe 宋体 Std L",serif;
 }
 .showTitle div{
@@ -244,7 +329,7 @@ select{
 }
 .figure{
     line-height: 35px;
-    margin-right: 10px;
+    margin-right: 85px;
 }
 .figure label{
     color: black;
@@ -266,15 +351,17 @@ select{
 .line img{
     margin-top: -2px;
 }
-.line ul{
-    margin-left: 20px;
-}
+/*.line ul{*/
+    /*margin-left: 20px;*/
+/*}*/
 .line ul li{
-    width: 140px;
-    margin:0 15px 0 55px;
+    width: 195px;
+    /*margin:0 15px 0 55px;*/
 }
 .proName{
     margin:15px 0;
+    height: 32px;
+    border: 1px solid red;
 }
 .proPrice{
     color: mediumvioletred;
@@ -284,10 +371,14 @@ select{
 }
 .toBuyCar{
     border: 1px solid lightslategrey;
-    margin:5px 30px 5px 0;
+    margin:15px 30px 5px 0;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
 }
 .toBuyCar img,.toBuyCar span{
-    vertical-align: top;
+    vertical-align: middle;
 }
 .proComment{
     margin:0 5px ;
