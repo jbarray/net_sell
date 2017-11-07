@@ -495,11 +495,12 @@
 }
 .commentWord{
     line-height: 25px;
+    color: #777777;
 }
 .yourFeeling{
     line-height: 20px;
 }
-.yourFeeling .support{
+.yourFeeling {
     color:#085c9b;
 }
 .scoreMassage{
@@ -566,31 +567,31 @@
     line-height: 30px;
 }
 .questionTitle{
-    height: 30px;
-    width: 130px;
-    text-align: center;
     border-top: 1px solid #0688ba;
     border-right: 1px solid #0688ba;
     border-left: 1px solid #0688ba;
     /*border-bottom: 1px solid  #11456b;*/
 }
-/*.detailTitle ul{*/
-    /*display: inline-block;*/
-/*}*/
-/*.detailTitle ul li{*/
-    /*height: 27px;*/
-    /*line-height: 27px;*/
-    /*display: inline-block;*/
-    /*font-size: 14px;*/
-    /*font-weight: bold;*/
-    /*!*padding:6px 10px;*!*/
-    /*background-color:gainsboro;*/
-    /*border-top: 1px solid gray;*/
-    /*border-right: 1px solid gray;*/
-    /*border-bottom: 1px solid  #11456b;*/
-    /*margin-right:-4px;*/
+.detailTitle ul{
+    display: inline-block;
+    /*width: 521px;*/
+}
+.detailTitle ul li{
+    display: inline-block;
+    /*float: left;*/
+    list-style: none;
+    font-size: 14px;
+    height: 29px;
+    width: 130px;
+    text-align: center;
+}
+.detail{
+    background-color:#f3f3f3;
+    color:#333333;
+    border-top: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
     /*margin-top: -3px;*/
-/*}*/
+}
 .help{
     display: inline-block;
     border-bottom: 1px solid #0688ba;
