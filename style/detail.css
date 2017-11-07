@@ -1,6 +1,6 @@
 .bodyPart{
-    background-color: gainsboro;
-    padding-top: 10px;
+    background-color:#f0f0f0;
+    padding: 10px 0 30px 0;
     font-family: 微软雅黑,serif;
 }
 .productBar{
@@ -14,7 +14,7 @@
     width:1000px;
     margin-bottom: 10px;
     background-color: white;
-    border: 1px solid darkgray;
+    border: 1px solid #cccccc;
 }
 .productSelect div{
     vertical-align: top;
@@ -33,7 +33,7 @@
     width: 682px;
     margin:0;
     padding:25px 0 10px 10px;
-    border-left: 1px solid darkgray;
+    border-left: 1px solid #cccccc;
     display: inline-block;
     color:#666666;
 
@@ -142,21 +142,32 @@
     font-size: 14px;
     height: 32px;
 }
-.buyNumber span{
+.buyNumber label input{
     border-top:1px solid darkgray;
     border-bottom:1px solid darkgray;
-    padding:10px 25px;
-    height: 32px;
+    padding:3px 5px 3px 15px;
+    width: 20px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: -10px;
     background-color:#ffffff;
 }
 .buyNumber .sign{
     border:1px solid darkgray;
-    padding:10px 5px;
-    height: 32px;
+    padding:4.5px 5px;
+    height: 22px;
+    line-height: 22px;
     background-color:#efefef;
 }
+.buyNumber .sign,.buyNumber label input{
+    vertical-align: middle;
+    margin-bottom: -10px;
+}
+.p6 .buyNumber,.p6 .lim{
+    vertical-align: bottom;
+}
 #CustomerSelect{
-    background-color: gainsboro;
+    background-color:#f2f2f2;
     margin:15px 10px 15px 0;
     padding:20px 0 25px 0;
 }
@@ -216,7 +227,7 @@
     border-top: 2px solid royalblue;
 }
 .part{
-    border:1px solid darkgray;
+    border:1px solid #cccccc;
     background-color: white;
     font-family: 微软雅黑, serif;
     line-height: 20px;
@@ -230,7 +241,7 @@
 .kindsTitle{
     font-size: 15px;
     font-weight: bold;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid #cccccc;
     padding:0 15px;
     height: 39px;
     line-height: 39px;
@@ -250,56 +261,75 @@
 }
 /*右边第一部分*/
 .ProduceBody{
-    margin-left:250px;
+    width: 786px;
+    margin-left:215px;
+}
+.introducePro{
+    background-color: white;
 }
 .introducePro,.commentPro,.otherDetails{
     margin-top: 14px;
-    border:1px solid darkgray;
+    border:1px solid #c9c9c9;
 }
 .title{
-
-    line-height: 30px;
+    line-height: 40px;
     text-align: center;
 }
 .introduce{
     width:50%;
-    height:30px;
+    /*height:30px;*/
     margin-left:0;
     background-color: royalblue;
     color: white;
-    /*遗留问题:icon有白底*/
 }
 .introduce img,.introduce span{
     vertical-align: middle;
 }
 .comment{
     width:50%;
-    height:29px;
-    border-bottom: 1px solid darkgray;
+    height:41px;
+    border-bottom: 1px solid #c9c9c9;
+    background-color:#f0f0f0;
 }
 .comment img,.comment span{
     vertical-align: middle;
 }
-.img{
+.title img{
     text-align: center;
-    margin:60px 0 40px 0;
+    width:23px;
+    height: 20px;
+    margin-right: 12px;
 }
-.words,.picture{
-    margin-left: 10px;
-    margin-bottom: 40px;
+.img{
+    margin-top:80px;
+    margin-left: 135px;
+    margin-bottom: 45px;
+}
+.words{
+    margin-left: 20px;
+    margin-bottom: 60px;
+}
+.picture{
+    margin-left: 20px;
+}
+.contentPic img{
+    margin-bottom:55px;
 }
 .titleName{
     font-size: 16px;
-    color: #4593FD;
-    border-bottom:2px solid #4593FD;
-    width:10%;
+    color:#2457a6;
+    border-bottom:2px solid #2457a6;
+    width:75px;
+    padding-bottom: 10px;
     display: inline-block;
 }
 .wordTitle span{
-    color: dimgray;
-    border-bottom:2px solid lightgray;
+    color:#666666;
+    border-bottom:2px solid #d7d7d7;
     width:85%;
-    margin-left: 0;
+    /*margin-left: 0;*/
+    padding-bottom: 10px;
+    margin-left: -3px;
     display: inline-block;
 }
 .wordTitle div,span{
@@ -307,7 +337,8 @@
 }
 .content{
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 20px;
+    color: #666666;
 }
 .content2{
     font-size: 14px;
@@ -323,20 +354,21 @@
 }
 .commentHead{
     background-color: white;
-    padding: 5px;
+    padding: 12px 12px 57px 12px;
 }
 .commentProduct{
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 15px;
+    color:#666666;
 }
 .commentFigure div{
     vertical-align: middle;
 }
 .figure{
-    color: darkorange;
+    color: #ff8f00;
     font-size: 4em;
-    margin-right: 20px;
+    margin-right: 10px;
     display: inline-block;
 }
 .details{
@@ -346,80 +378,109 @@
     vertical-align: middle;
 }
 .figure span{
-    color: dimgray;
+    color: #66667d;
     font-size:25px;
 }
 .bar ul{
-    width:560px;
-    background-color: #aeaeae;
+    width:455px;
+    height: 18px;
+    background-color: #bdbdbd;
     margin-bottom: 10px;
 }
 .bar ul li{
     display: inline-block;
-    padding:5px 30px;
+    padding:0 20px 0 25px;
 }
 .mark{
     text-align: center;
-    width:16px;
-    margin-left: 460px;
-    margin-bottom: 18px;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: dimgray;
-    margin-top: -8px;
+    width:26px;
+    height: 16px;
+    margin-left: 415px;
+    margin-bottom: 5px;
+    /*padding-right: 10px;*/
+    /*padding-left: 10px;*/
+    background-color: #7f7f7f;
+    margin-top: 0;
 }
 #square{
     display:block;
     width:0;
     height:0;
-    border-width:18px 18px 0;
+    border-width:5px 4px 0;
     border-style:solid;
     border-color:dimgray transparent transparent;/*黄 透明 透明 */
     position:absolute;
-    margin-left: -10px;
+    margin-left: 7px;
 }
 /*.commentTitle ul{*/
 /*display: inline-block;*/
 /*}*/
 .commentTitle{
-    height: 50px;
+    height: 30px;
+    text-align: center;
 }
 .commentTitle ul li{
     display: inline-block;
-    padding:10px 5px;
+    padding: 3px 5px;
     margin:5px 20px;
+    color: #000000;
+}
+.commentTitle ul .borderBottom{
+    color:#317ee7;
+    border-bottom:3px solid #317ee7;
+}
+.rightOrder{
+    margin-right: 8px;
 }
 .rightOrder .order{
     display: inline-block;
-    padding:5px;
-    margin:10px 0;
-    border: 1px solid lightgray;
+    /*padding:2px 0;*/
+    margin: 4px 0;
+    width: 75px;
+    height: 20px;
+    border-top: 1px solid #cdcdcd;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    text-align: center;
+}
+.rightOrder .rightOrder2{
+    margin-left: -3px;
+}
+.rightOrder .order img{
+    margin:0 0 0 5px;
+}
+.rightOrder .order span ,.rightOrder .order img{
+    vertical-align:bottom;
 }
 #new{
     position: absolute;
-    margin-left: 715px;
-    margin-top: -3px;
+    margin-left: 730px;
+    margin-top: -8px;
     padding:0 3px;
-    background-color: red;
+    width: 24px;
+    height: 12px;
+    background-color:#e40003;
     font-weight: bold;
     color: white;
+    line-height: 12px;
 }
 .commentBody{
     background-color: white;
 }
 .customerComment{
-    margin-left:30px;
-    padding-top: 30px;
-    margin-bottom: 30px;
+    margin-left:40px;
+    padding:18px 0;
+    /*margin-bottom: 30px;*/
 }
 .customerMassage{
-    margin-top: 30px;
+    margin-top: 0;
+    height: 110px;
 }
 .realComment{
     margin-left: 90px;
     margin-right: 30px;
     height: 100px;
-    margin-top: 30px;
+    margin-top: 0;
     line-height: 30px;
 }
 .starNum{
@@ -428,70 +489,137 @@
 }
 .Time{
     display: inline-block;
+    color: #ababab;
     /*margin-left: 300px;*/
-    padding-left: 150px;
+    padding-left: 210px;
+}
+.commentWord{
+    line-height: 25px;
+}
+.yourFeeling{
+    line-height: 20px;
+}
+.yourFeeling .support{
+    color:#085c9b;
 }
 .scoreMassage{
     margin-left: 5px;
     margin-right: 60px;
 }
 .changePage{
-    padding-bottom: 20px;
+    padding-bottom: 34px;
+    padding-top: 12px;
 }
 .changePage ul{
     text-align: right;
-    padding-right: 15px;
+    /*padding-right: 10px;*/
 }
 .changePage ul li{
     display: inline-block;
     border:1px solid gainsboro;
-    padding:5px;
+    text-align: center;
+    padding:0 10px;
+    height: 22px;
+    line-height: 22px;
+}
+.changePage .nowPage{
+    background-color:#e9e9e9;
+    color:#ff0000;
+}
+.blue{
+    color:#085c9b;
+}
+.changePage .page2{
+    color:#087fc3;
+}
+.changePage .goToBefore{
+    width: 65px;
+    height: 22px;
+    padding:0;
+}
+.changePage .goTo{
+    padding-left:3px;
 }
 .changePage .specialLi{
     border:none;
 }
+.changePage .makeSure{
+    margin-right: 12px;
+    padding:0;
+}
 .pageNum{
     border:1px solid gainsboro;
-    padding: 2px 5px;
+    /*padding: 2px 5px;*/
+    padding-left: 12px;
     margin:0 3px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
 }
 /*咨询部分*/
 .otherDetails{
     background-color: white;
     border:none;
 }
-.detailTitle ul{
-    display: inline-block;
+.detailTitle{
+    height: 30px;
+    line-height: 30px;
 }
-.detailTitle ul li{
-    display: inline-block;
-    font-size: 15px;
-    font-weight: bold;
-    padding:6px 10px;
-    background-color:gainsboro;
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-    border-bottom: 1px solid  #11456b;
-    margin-right:-4px;
+.questionTitle{
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    border-top: 1px solid #0688ba;
+    border-right: 1px solid #0688ba;
+    border-left: 1px solid #0688ba;
+    /*border-bottom: 1px solid  #11456b;*/
 }
+/*.detailTitle ul{*/
+    /*display: inline-block;*/
+/*}*/
+/*.detailTitle ul li{*/
+    /*height: 27px;*/
+    /*line-height: 27px;*/
+    /*display: inline-block;*/
+    /*font-size: 14px;*/
+    /*font-weight: bold;*/
+    /*!*padding:6px 10px;*!*/
+    /*background-color:gainsboro;*/
+    /*border-top: 1px solid gray;*/
+    /*border-right: 1px solid gray;*/
+    /*border-bottom: 1px solid  #11456b;*/
+    /*margin-right:-4px;*/
+    /*margin-top: -3px;*/
+/*}*/
 .help{
     display: inline-block;
-    border-bottom: 1px solid  #11456b;
-    padding:7px 10px 7px 205px;
+    border-bottom: 1px solid #0688ba;
+    padding-right:25px;
+    width: 629px;
+    margin-top: -31px;
+    text-align: right;
+    color: #085c9b;
 }
 #nowPage{
-    border-top: 1px solid  #11456b;
-    border-right: 1px solid  #11456b;
-    border-left: 1px solid #11456b;
+    border-top: 1px solid  #0688ba;
+    border-right: 1px solid  #0688ba;
+    border-left: 1px solid #0688ba;
     border-bottom:none;
 }
 /*.detailMassage{*/
 /*padding: 20px;*/
 /*}*/
 .intention{
-    background-color:gainsboro;
-    padding:20px;
-    margin:20px 20px 0 20px;
+    background-color:#f3f3f3;
+    line-height: 22px;
+    padding: 10px 15px 5px 20px;
+    margin:10px 12px 0 20px;
+}
+.otherDetails .customerComment{
+    padding:30px 0 20px 0;
+}
+.otherDetails .changePage{
+    margin-top: 12px;
 }
 .question{
     font-weight: bold;
@@ -500,7 +628,7 @@
 .webAnswer{
     margin-top: 5px;
     padding:10px 30px;
-    background-color:gainsboro;
+    background-color:#f1f1f1;
 }
 .upSquare{
     display:block;
@@ -508,13 +636,13 @@
     height:0;
     border-width: 0 10px 10px;
     border-style:solid;
-    border-color: transparent transparent gainsboro;/*黄 透明 透明 */
+    border-color: transparent transparent #f1f1f1;/*黄 透明 透明 */
     position:absolute;
     margin-left: -10px;
     margin-top: -16px;
 }
 .changeColor{
-    color: dimgray;
+    color: #66667d;
 }
 /*共用部分*/
 .beChoice{
@@ -523,7 +651,7 @@
 
 /*脚注*/
 footer{
-    background-color: #aeaeae;
+    background-color: #d4d4d4;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 30px;
