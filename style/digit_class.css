@@ -87,15 +87,12 @@
 //   background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
 }
 .shopClass h3{
-    padding-left: 41px;
+    padding-left: 43px;
+    padding-right: 22px;
 }
-.shopClass i{
-    background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
-    height:7px;
-    width:11px;
-    display: inline-block;
-    margin-left: 11px;
-    margin-right: 10px;
+.shopClass img{
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .nav{
     display: inline-block;
@@ -116,21 +113,22 @@
 }
 /*Class部分*/
 .digitKinds{
-    border:1px solid darkgray;
-    background-color: gainsboro;
+    border:1px solid #d7d7d7;
+    background-color:#f3f3f3;
     font-family: 微软雅黑, serif;
     line-height: 30px;
+    width: 182px;
 }
 .kindsTitle{
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px solid darkgray;
-    padding:0 25px;
+    border-bottom: 1px solid #cdcdcd;
+    padding:0 20px;
 }
 .kind{
-    border-bottom: 1px dashed darkgray;
-    padding: 5px 20px;
+    border-bottom: 1px dashed #cdcdcd;
+    padding: 5px 0 5px 0;
     vertical-align: top;
 }
 .lastKind{
@@ -141,7 +139,8 @@
 }
 .leftKind{
     display: inline-block;
-    width: 56px;
+    margin-right: 22px;
+    margin-left: 20px;
 }
 .rightKind{
     display: inline-block;
@@ -150,26 +149,40 @@
 .kindName{
     font-weight: bold;
     font-size: 13px;
+    margin-left: 20px;
+    line-height: 25px;
 }
 .productPic{
-    margin-left: 18%;
+    margin-left: 190px;
 }
 /*展示商品*/
+.showTitle{
+    /*margin-left: 5px;*/
+}
 .showProduct{
-    margin-left: 18%;
+    margin-left: 190px;
     margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 .digitPro ul{
     padding-left:5px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     margin-top: -2px;
 }
 .digitPro ul li{
     display: inline-block;
     width: 170px;
-    padding:0 15px;
+    padding:0 12px 0 15px;
+}
+.digitPro ul .photo{
+    height: 162px;
+    line-height: 162px;
+    text-align: center;
+}
+.digitPro ul .photo img{
+    vertical-align: middle;
 }
 .firstLine{
     /*border-top:2px solid darkgray ;*/
@@ -182,28 +195,42 @@
     font-size: 20px;
     font-weight: bold;
     font-family: "Adobe 宋体 Std L",serif;
-    width:150px;
-    border-bottom: 2px solid royalblue;
+    color:#444444;
+    width:160px;
+    border-bottom: 2px solid #096dba;
     display: inline-block;
 }
 .blank {
     display: inline-block;
-    width: 649px;
+    width: 628px;
     height: 50px;
-    border-bottom: 2px solid darkgray;
+    border-bottom: 2px solid #cccccc;
     margin-left: -3px;
 }
-.proName{
-    margin:15px 0;
+.proName {
+    margin:5px 0 30px 0;
+    color: #333333;
+}
+.proName a{
+    color: #333333;
 }
 .proPrice{
-    color: mediumvioletred;
+    color:#d4105a;
     margin:5px;
     font-weight: bold;
     font-size: 13px;
 }
 .proComment{
-    margin:0 5px;
+    margin:0 ;
+    color:#444444;
+    font-size: 12px;
+}
+.proComment a{
+    color:#085c9b;
+    margin-left: 5px;
+}
+.proComment a,.proComment img{
+    vertical-align: top;
 }
 /*脚注*/
 footer{
