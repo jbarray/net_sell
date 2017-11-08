@@ -118,14 +118,20 @@
     padding-top: 17px;
     padding-bottom: 10px;
 }
+.digitContent a{
+    color:#1d7ad9;
+}
+.digitContent a:hover{
+    color: red;
+}
 .content{
     padding-bottom: 20px;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid #d9d9d9;
     margin-bottom: 50px;
 }
 .digitKinds{
-    border:1px solid darkgray;
-    background-color: gainsboro;
+    border:1px solid #d7d7d7;
+    background-color:#f3f3f3;
     font-family: 微软雅黑, serif;
     line-height: 30px;
     width: 190px;
@@ -134,16 +140,16 @@
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid #cdcdcd;
     padding:0 20px;
 }
 .kind{
-    border-bottom: 1px dashed darkgray;
+    border-bottom: 1px dashed #cdcdcd;
     padding: 12px 0 10px 0;
     vertical-align: top;
 }
 .kind3{
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid #cdcdcd;
 }
 .lastKind{
     border-bottom:none;
@@ -156,8 +162,10 @@
     width: 65px;
     padding-left: 20px;
     line-height: 25px;
+    color:#555555;
 }
 .kindName{
+    color: #555555;
     font-weight: bold;
     font-size: 13px;
     line-height: 24px;
@@ -181,10 +189,10 @@
 }
 .massage{
     padding-left: 15px;
-    color: darkgray;
+    color:#999999;
 }
 .massage div{
-    color:lightslategrey;
+    color:#666666;
 }
 /*右边开始*/
 .choice{
@@ -193,16 +201,17 @@
 }
 .feature{
     margin-left: 5px;
-    border-bottom:1px dashed darkgray;
+    border-bottom:1px dashed #dddddd;
 }
 .borderSpecialFea{
-    border-bottom:1px solid darkgray;
+    border-bottom:1px solid #d9d9d9;
     margin-left: 5px;
 }
 .borderSpecialFea li{
     margin-right: 100px;
 }
 .featureName{
+    color:#999999;
     display: inline-block;
     width: 80px;
     padding:10px 40px 10px 0;
@@ -212,7 +221,7 @@
 .borderSpecialFea .featureName,.row{
     vertical-align: top;
 }
-.row .undefined{
+.digitContent .row .undefined{
     width: 30px;
     height: 14px;
     margin-right: 30px;
@@ -220,7 +229,13 @@
     padding:5px ;
     margin-top: 5px;
 }
-.row .undefinedBlank{
+.digitContent .row .undefined a{
+    color: white;
+}
+.digitContent .row .more {
+    color:#333333;
+}
+.digitContent .row .undefinedBlank{
     width: 30px;
     height: 1px;
     background-color: white;
@@ -231,6 +246,7 @@
     display: inline-block;
 }
 .row li{
+    color:#1d7ad9;
     display: inline-block;
     line-height: 15px;
     padding:5px 10px 5px 0;
@@ -248,7 +264,6 @@
     /*width: 115px;*/
 /*}*/
 .row .more{
-    /*border:1px solid red;*/
     margin-left: 550px;
     margin-top: -30px;
     margin-right: 0;
@@ -256,8 +271,6 @@
     float: right;
     text-align: right;
     width: 100px;
-    border:1px solid red;
-    /*background: url("../imgs/icon/downRocket_black.png")right no-repeat;*/
 }
 .row3 .more{
     padding-top: 8px;
@@ -265,11 +278,15 @@
 .row5 .more{
      padding-top: 8px;
  }
+.more img{
+    width:12px;
+    height:12px;
+}
 select{
-    border:1px solid darkgray;
+    border:1px solid #dcdcdc;
     /*padding: 5px;*/
     height: 22px;
-   padding-bottom: 2px;
+   padding-bottom: 3px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -277,10 +294,12 @@ select{
     /*遗留问题:框内出现向下箭头*/
 }
 .choice select{
-    padding-right: 18px;
-    padding-left: 8px;
     background: url("../imgs/icon/downRocket_black.png")no-repeat right center;
     background-color: white;
+    padding:0 18px 0 8px;
+    line-height: 23px;
+    height: 23px;
+    /*width: 87px;*/
     margin-bottom: 2px;
 }
 .showTitle select{
@@ -289,6 +308,7 @@ select{
     background: url("../imgs/icon/square_up.png")no-repeat right center;
     background-color: white;
     margin-bottom: 2px;
+    line-height: 22px;
 }
 /*展示商品*/
 .showProduct{
@@ -312,13 +332,17 @@ select{
     /*border-top:2px solid darkgray ;*/
 }
 .showTitle{
-    background-color:gainsboro ;
-    border: 1px solid darkgray;
+    background-color:#f5f5f5;
+    border: 1px solid #d9d9d9;
+    color: #333333;
     font-size: 15px;
     height: 33px;
     line-height: 33px;
     font-family: "Adobe 宋体 Std L",serif;
 }
+/*.showTitle select{*/
+    /**/
+/*}*/
 .showTitle div{
     vertical-align: bottom;
 }
@@ -335,10 +359,10 @@ select{
     color: black;
 }
 .figure{
-    color: #aeaeae;
+    color: #999999;
 }
 .figure span{
-    color:mediumvioletred;
+    color:#d70000;
 }
 /*.blank {*/
     /*display: inline-block;*/
@@ -361,21 +385,29 @@ select{
 .proName{
     margin:15px 0;
     height: 32px;
-    border: 1px solid red;
 }
 .proPrice{
-    color: mediumvioletred;
+    color: #d70000;
     margin:0 10px 0 5px;
     font-weight: bold;
     font-size: 13px;
 }
+.line .comment{
+    color:#1d7ad9;
+}
 .toBuyCar{
-    border: 1px solid lightslategrey;
+    border: 1px solid #c3d5e7;
     margin:15px 30px 5px 0;
     width: 90px;
     height: 25px;
     line-height: 25px;
     text-align: center;
+}
+.line .toBuyCar a{
+    color: #3679bf;
+}
+.toBuyCar img{
+    margin-right: 4px;
 }
 .toBuyCar img,.toBuyCar span{
     vertical-align: middle;

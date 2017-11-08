@@ -115,13 +115,12 @@ ul li{
 .shopClass h3{
     padding-left: 41px;
 }
-.shopClass i{
-    background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
-    height:7px;
+.shopClass img{
+    height:14px;
     width:11px;
     display: inline-block;
-    margin-left: 11px;
-    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
 }
 .nav{
     display: inline-block;
