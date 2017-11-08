@@ -87,15 +87,14 @@
  //   background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
 }
 .shopClass h3{
-    padding-left: 41px;
+    padding-left: 43px;
+    padding-right: 24px;
+    /*width:187px;*/
+    /*text-align: right;*/
 }
-.shopClass i{
-    background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
-    height:7px;
-    width:11px;
-    display: inline-block;
-    margin-left: 11px;
-    margin-right: 10px;
+.shopClass img{
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .nav{
     display: inline-block;
@@ -120,28 +119,53 @@
     background-color: #4593FD;
 }
 .selectClass{
-    background-color: #4593FD;
-    padding:15px 10px;
-    height: 45px;
+    background-color:#4593fd;
+    padding:14px 10px;
+    width:170px;
+    height: 40px;
     color: white;
-    line-height: 25px;
-    font-size: 15px;
+    line-height: 20px;
+    font-size: 14px;
     font-family: "Microsoft YaHei", "微软雅黑", serif;
-    border-bottom: 1px solid deepskyblue;
+    border-bottom: 1px solid #3487f2;
+    border-top: 1px solid #5aa1fe;
     /*遗留:加三角符号*/
+}
+.selectClass1{
+    border-top: none;
 }
 .importantProduct{
     background-color: #1369c0;
     font-size: 12px;
     text-decoration: underline;
-    border-radius: 5px;
-    padding:0 2px;
+    border-radius: 10px;
+    padding: 1px 4px;
+    margin-left: 12px;
+    line-height: 18px;
 }
 .importantClass{
     background-color: #1369c0;
     font-size: 12px;
-    border-radius: 5px;
-    padding:0 2px;
+    border-radius: 10px;
+    width: 50px;
+    padding: 1px 4px;
+    margin-left: 10px;
+    line-height: 18px;
+}
+.selectClass.squareRight,.selectClass span{
+    vertical-align: top;
+}
+.squareRight img{
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.foodClass .importantClass{
+    background-color: #1369c0;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 1px 10px;
+    margin-left: 8px;
+    line-height: 18px;
 }
 .normalProduct{
     font-size: 12px;
@@ -154,15 +178,16 @@
 }
 .AD{
     /*margin-left:400px;*/
-    margin-top: -414px;
+    margin-top: -435px;
     margin-right: 0;
 }
 .specificClass{
     border: 1px solid gainsboro;
     color: black;
-    width: 520px;
-    padding:0 5px;
-    margin-left: 171px;
+    width: 527px;
+    /*height: 354px;*/
+    padding:0 20px 0 20px;
+    margin-left: 191px;
 }
 .specific{
     /*line-height: 25px;*/
@@ -172,21 +197,38 @@
 .kinds{
     color:#1369c0;
     font-weight:bold;
-    border:1px solid red;
     /*line-height: 25px;*/
     display: inline-block;
+    margin-top: 15px;
 }
 .goods{
-    color: dimgray;
+    color:black;
     font-weight:normal;
     display: inline-block;
-    padding:10px;
+    padding:10px 0 10px 17px;
     line-height: 28px;
+    font-size: 10px;
 }
-.specific .button{
+.goods .hotGoods{
+    /*color: ;*/
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.goods2 .blank,.goods3 .blank{
+    /*width:12px;*/
+    padding:0 7px;
+}
+.goods4 .blank,.goods5 .blank,.goods6 .blank{
+    /*width:12px;*/
+    padding:0 7px;
+}
+.specific .goods,.specific .kinds{
+    vertical-align: top;
+}
+.specific .leftButton{
     border:none;
     background-color:#1369c0;
-    margin:20px 0;
+    margin:15px 0;
     line-height: 55px;
     padding: 3px;
     color: white;
@@ -195,7 +237,12 @@
     border:none;
 }
 .specific .rightButton{
-    margin:15px 20px;
+    margin:15px 10px;
+    border:none;
+    background-color:#1369c0;
+    line-height: 55px;
+    padding: 3px;
+    color: white;
 }
 .specific img{
     margin-top: 5px;
@@ -206,7 +253,11 @@
     margin-right: 200px;
 }
 .content{
-    margin: 60px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+ul li{
+    list-style: none;
 }
 /*家用电脑板块开始*/
 .computer{
@@ -220,17 +271,18 @@
     display: inline-block;
     /*遗留:文字不居中的问题 已经解决*/
 }
-.className div{
-    vertical-align: middle;
+.className div,.className img{
+    vertical-align: bottom;
 }
 .className img{
     margin-right: 12px;
+    margin-bottom: 15px;
 }
 .computerTitle{
     padding-top: -20px;
 }
 .foodTitle{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .showBody ul{
     height: 398px;
@@ -243,7 +295,7 @@
 .showBody ul li{
     display: inline-block;
     vertical-align: middle;
-    width: 198px;
+    width: 201.5px;
     height: 398px;
     padding:0;
 }
@@ -253,12 +305,20 @@
 }
 .productTop{
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 5px;
+    margin-top: 45px;
+    /*margin-bottom: 5px;*/
 }
 .productBottom{
     border-top: 1px solid gainsboro;
-    padding: 24px 10px;
+    margin:0;
+    padding:0;
+    /*padding: 16px 0 20px 0;*/
+    text-align: center;
+    /*vertical-align: middle;*/
+    line-height: 114px;
+}
+.productBottom img,.BottomProductName{
+    vertical-align: middle;
 }
 .productTop img{
     margin-bottom: 7px;
@@ -268,25 +328,33 @@
     color: black;
     font-weight: bold;
     font-size: 17px;
-    padding:13px 0;
+    padding:20px 0 8px 0;
     /*遗留问:字体*/
 }
 .TopProductPrice{
     color: #ff8c00;
     font-size: 13px;
-    padding-bottom:15px;
+    padding-bottom:20px;
 }
 .productBottom img{
     margin-bottom: 10px;
 }
 .bottomProductPrice{
     background: url("../imgs/icon/yuan.jpg")left no-repeat;
-    padding-left: 15px;
+    padding-left: 13px;
+    width: 25px;
+    text-align: center;
     margin: 5px;
 }
 .BottomProductName{
-    width: 95px;
-    height: 10px;
+    width: 98px;
+    /*height: 10px;*/
+    line-height: 20px;
+    margin-top: 25px;
+    margin-right: 8px;
+}
+.More a{
+    color:black;
 }
 /*脚注*/
 footer{
