@@ -47,6 +47,7 @@
     font-family: "Microsoft YaHei", "微软雅黑", serif;
     background-color:#ff8c00 ;
     color: white;
+    border: none;
 }
 .shopCar{
     color: white;
@@ -188,6 +189,10 @@
     /*height: 354px;*/
     padding:0 20px 0 20px;
     margin-left: 191px;
+}
+.specificClass2{
+    position: absolute;
+    margin-top: -400px;
 }
 .specific{
     /*line-height: 25px;*/
