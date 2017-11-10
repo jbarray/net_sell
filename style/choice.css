@@ -181,6 +181,9 @@
 #leftPro li{
     height: 80px;
 }
+#leftPro a{
+    color:#999999;
+}
 .leftPic{
     width: 70px;
     /*padding-right: 15px;*/
