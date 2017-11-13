@@ -112,7 +112,7 @@
     height:25px;
     /*遗留问题:蓝色按钮*/
 }
-.color{
+.p4 span{
     /*width:83px;*/
     /*height:33px;*/
     margin:15px 10px 15px 0;
@@ -120,6 +120,12 @@
     border:1px solid darkgray;
     background-color: white;
     color:#000000;
+}
+/*.p4 :nth-child(2){*/
+    /*border:1px solid #317ee7;*/
+/*}*/
+.p4 .beChoice{
+    border:1px solid #317ee7;
 }
 .p5 div{
     vertical-align: middle;
@@ -487,6 +493,10 @@
     display: inline-block;
     width:280px;
 }
+.starNum img{
+    width: 12px;
+    height: 12px;
+}
 .Time{
     display: inline-block;
     color: #ababab;
@@ -510,6 +520,10 @@
 .changePage{
     padding-bottom: 34px;
     padding-top: 12px;
+}
+.changePage img{
+    width: 10px;
+    height: 10px;
 }
 .changePage ul{
     text-align: right;
@@ -646,7 +660,7 @@
     color: #66667d;
 }
 /*共用部分*/
-.beChoice{
+body .beChoice{
     border:1px solid #317ee7;
 }
 
