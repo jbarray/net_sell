@@ -1,6 +1,8 @@
 /*获取数据*/
 var searchValue=document.getElementsByClassName('search_text');
 var searchBtn=document.getElementsByClassName('search_btn');
+var productColor=document.getElementById('color');
+// var productSize=document.getElementById('size');
 // var arrLink=document.getElementsByName('color');
 /*input输入框(如果输入手机,跳转至choice页面)*/
 function input() {
@@ -41,5 +43,7 @@ function clickNum() {
             }
         }
         target.className='beChoice';
+        /*选择产品尺寸和颜色后,显示已选择的内容*/
+        productColor.innerHTML=target.innerHTML;
     }
 }

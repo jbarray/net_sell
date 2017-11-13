@@ -120,6 +120,7 @@
     border:1px solid darkgray;
     background-color: white;
     color:#000000;
+    cursor: pointer;
 }
 /*.p4 :nth-child(2){*/
     /*border:1px solid #317ee7;*/
