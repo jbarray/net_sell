@@ -138,11 +138,12 @@
     display: inline-block;
     line-height: 40px;
 }
-.size{
+.p5 span{
     margin-right:5px;
     padding:9px 7px;
     border:1px solid darkgray;
     background-color: white;
+    cursor: pointer;
 }
 .buyNumber{
     margin-right: 10px;

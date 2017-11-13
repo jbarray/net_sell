@@ -2,7 +2,7 @@
 var searchValue=document.getElementsByClassName('search_text');
 var searchBtn=document.getElementsByClassName('search_btn');
 var productColor=document.getElementById('color');
-// var productSize=document.getElementById('size');
+var productSize=document.getElementById('size');
 // var arrLink=document.getElementsByName('color');
 /*input输入框(如果输入手机,跳转至choice页面)*/
 function input() {
@@ -45,5 +45,31 @@ function clickNum() {
         target.className='beChoice';
         /*选择产品尺寸和颜色后,显示已选择的内容*/
         productColor.innerHTML=target.innerHTML;
+    }
+}
+/*产品型号的选择*/
+window.onload=sizeChange;
+function  sizeChange(){
+    var arrLink=document.getElementsByName('size');
+    if(document.getElementsByName('size')){
+        for(var i=0;i<arrLink.length;i++){
+            arrLink[i].className='notChoice';
+            arrLink[0].className='beChoice';
+            arrLink[i].onclick=clickSize;
+        }
+    }
+}
+function clickSize() {
+    var arrLink=document.getElementsByName('size');
+    var target = event.currentTarget;
+    if (document.getElementsByName('size')) {
+        for (var i = 0; i < arrLink.length; i++) {
+            if (arrLink[i].className = 'beChoice') {
+                arrLink[i].className = 'notChoice'
+            }
+        }
+        target.className='beChoice';
+        /*选择产品尺寸和颜色后,显示已选择的内容*/
+        productSize.innerHTML=target.innerHTML;
     }
 }
