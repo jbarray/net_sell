@@ -26,9 +26,9 @@
             </div>
             <div class="search_box">
                 <label>
-                    <input  class="search_text fl"/>
+                    <input  class="search_text fl" placeholder="输入 手机 试试..."/>
                 </label>
-                <input type="button" class="search_btn fr" value="搜索"/>
+                <button class="search_btn fr">搜索</button>
             </div>
             <div class="shopCar">
                 <span class="shopText fl">购物车</span>
@@ -54,8 +54,9 @@
 </div>
 <div class="bodyPart">
     <div class="comWidth">
+        //产品信息 上半部分
         <div class="productBuy">
-            <div class="productBar"><span>首页 </span>>平板电脑 > 平板电脑 > Apple 苹果 > MD531CH/A</div>
+            <div class="productBar"><span>首页 </span>> 平板电脑 > Apple 苹果 > MD531CH/A</div>
             <div class="productSelect">
                 <div class="productPicture ">
                     <div class="bigPic"><img src="../imgs/imge/detail/BigPic.jpg"></div>
@@ -67,21 +68,23 @@
                     <div class="property p2"><div class="propertyName fl">优惠</div><span class="temp "><span class="activity orangeBackground"><span class="activitySquare"></span><span class="circle"></span>满换购</span>购ipad加价优惠够配件或USB充电插座</span></div>
                     <div id="CustomerSelect">
                         <div class="property p3"><div class="propertyName fl">送到</div><span><label><select ><option>北京市 海淀区 五环内</option></select></label></span><span>有货，可当日出库</span></div>
-                        <div class="property p4"><div class="propertyName fl">选择颜色</div><span class="color beChoice">白色</span><span class="color">黑色</span><span class="color">灰色</span></div>
-                        <div class="property p5"><div class="propertyName ">选择规格</div><div class="sizes"><span class="size beChoice">WIFI Cellular 16G</span><span class="size">WIFI Cellular 64G</span><span class="size">WIFI Cellular 32G</span><span class="size">WIFI 32G</span><span class="size">WIFI 64G</span><br/><span class="size">WIFI 16G</span></div> </div>
-                        <div class="property p6"><div class="propertyName fl">数量</div><div class="buyNumber fl"><span class="sign">-</span><label><input value="1"/></label><span class="sign">+</span></div><div class="lim ">限购<span class="orange">9</span>件</div></div>
+                        <div class="property p4"><div class="propertyName fl">选择颜色</div><span name="color" class="beChoice">白色</span><span name="color">黑色</span><span name="color">灰色</span></div>
+                        <div class="property p5"><div class="propertyName ">选择规格</div><div class="sizes"><span name="size" class="beChoice">WIFI Cellular 16G</span><span name="size">WIFI Cellular 64G</span><span name="size">WIFI Cellular 32G</span><span name="size">WIFI 32G</span><span name="size">WIFI 64G</span><br/><span name="size">WIFI 16G</span></div> </div>
+                        <div class="property p6"><div class="propertyName fl">数量</div><div class="buyNumber fl"><span class="sign down">-</span><label><input id="productNum" value="1"/></label><span class="sign up">+</span></div><div class="lim ">限购<span class="orange">9</span>件</div></div>
                     </div>
-                    <div class="property p7"><div class="propertyName fl">已选择</div><span >“白色|WIFI 16G”</span></div>
+                    <div class="property p7"><div class="propertyName fl">已选择</div><span >“<b id="color">白色</b>|<b id="size">WIFI 16G”</b> </span></div>
                     <div class="inToProperty p8">
-                        <a href="shopCar.html"><div class="inTo"><img src="../imgs/imge/detail/buyCar.jpg"><span> 加入购物车</span></div></a>
+                        <a href="shop_car.html"><div class="inTo"><img src="../imgs/imge/detail/buyCar.jpg"><span> 加入购物车</span></div></a>
                         <span class="line"></span>
-                        <a href="shopCar.html"><div class="inTo"><img src="../imgs/imge/detail/buyCar.jpg"><span> 立即购买</span></div></a>
+                        <a href="shop_car.html"><div class="inTo"><img src="../imgs/imge/detail/buyCar.jpg"><span> 立即购买</span></div></a>
                     </div>
                     <div class="propertyPs p9">注意：此商品可提供普通发票，不提供增值税发票。</div>
                 </div>
             </div>
         </div>
+        //下半部分
         <div class="productIntroduce">
+            //左边产品列表
             <div class="digitKinds fl">
                 <div class="part part1">
                     <div class="kindsTitle">同价位</div>
@@ -129,15 +132,17 @@
                     </ul>
                 </div>
             </div>
+            //右边产品详情,评价及问题
             <div class="ProduceBody ">
                 <div class="introducePro">
                     <div class="title">
                         <div class="introduce fl">
-                            <img src="../imgs/icon/doc_grey.png"> <span>产品介绍</span>
+                            <img src="../imgs/icon/doc_grey.png"><a href="detail.html"><span>产品介绍</span></a>
                         </div>
                         <div class="comment fr ">
                             <img src="../imgs/icon/massage_white.png"> <span>商品评价(18782)</span>
                         </div>
+                        //此处开始与评价页不同
                     </div>
                     <div class="commentPro">
                         <div class="commentHead">
@@ -310,5 +315,6 @@
         <li><img src="../imgs/imge/bottomPic.jpg"></li>
     </ul>
 </footer>
+<script src="../js/j"></script>
 </body>
 </html>

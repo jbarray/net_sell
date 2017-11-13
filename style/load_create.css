@@ -90,3 +90,17 @@
     right: 31px;
     bottom: -41px;
 }
+/*脚注*/
+footer{
+    background-color: #aeaeae;
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+footer ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}

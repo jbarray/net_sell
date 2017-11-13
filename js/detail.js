@@ -21,6 +21,7 @@ searchBtn[0].addEventListener('click',function(){
 /*产品颜色的选择*/
 colorChange();
 sizeChange();
+// pageChange();
 function  colorChange(){
     if(document.getElementsByName('color')){
         var arrLink=document.getElementsByName('color');
@@ -28,7 +29,6 @@ function  colorChange(){
                 arrLink[i].className='notChoice';
                 arrLink[0].className='beChoice';
                 arrLink[i].onclick=clickNum;
-                console.log(arrLink[i]);
         }
     }
 }
@@ -47,7 +47,6 @@ function clickNum() {
     }
 }
 /*产品型号的选择*/
-// window.onload=sizeChange;
 function  sizeChange(){
     if(document.getElementsByName('size')){
         var sizeLink=document.getElementsByName('size');
@@ -82,3 +81,29 @@ downNum[0].onclick=function(){
         productNumber.value--;
     }
 };
+/*更改页数*/
+// function  pageChange(){
+//     if(document.getElementsByName('page')){
+//         var arrLink=document.getElementsByName('page');
+//         for(var i=0;i<arrLink.length;i++){
+//             arrLink[i].className='notChoice';
+//             arrLink[0].className='nowPage';
+//             arrLink[6].className='nowPage';
+//             arrLink[i].onclick=clickPage();
+//         }
+//     }
+// }
+// function clickPage() {
+//     var target = event.currentTarget;
+//     var arrLink=document.getElementsByName('page');
+//     if (document.getElementsByName('page')) {
+//         for (var i = 0; i < arrLink.length; i++) {
+//             if (arrLink[i].className = 'nowPage') {
+//                 arrLink[i].className = 'notChoice';
+//             }
+//         }
+//         target.className='nowPage';
+//         // console.log(target.className);
+//         /*选择产品尺寸和颜色后,显示已选择的内容*/
+//     }
+// }

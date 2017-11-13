@@ -6,12 +6,7 @@ var specificClass=document.getElementsByClassName('specificClass');
 var selectClass1=document.getElementsByClassName('selectClass1');
 /*input输入框(如果输入手机,跳转至choice页面)*/
 function input() {
-    if(searchValue[0].value==="手机"){
-        window.open('../html/choice.html');
-    }
-    else{
         window.open('../html/not_found.html');
-    }
 }
 searchBtn[0].addEventListener('click',function(){
     input();
