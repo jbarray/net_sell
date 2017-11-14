@@ -13,9 +13,9 @@
     background: url("../imgs/icon/star.jpg")left center no-repeat;
     padding-left: 19px;font-weight: bold;
 }
-.topBar a:hover{
-    color: red;
-}
+/*.topBar a:hover{*/
+    /*color: red;*/
+/*}*/
 /*top的第二部分logoBar*/
 .logoBar{
     background-color:royalblue;
@@ -118,6 +118,7 @@
 
 .productClass{
     background-color: #4593FD;
+    /*display: none;*/
 }
 .selectClass{
     background-color:#4593fd;
@@ -198,6 +199,10 @@
     /*line-height: 25px;*/
     border-bottom:1px solid gainsboro;
     font-size: 13px;
+}
+.specific img{
+    width:10px;
+    height:10px;
 }
 .kinds{
     color:#1369c0;
@@ -303,6 +308,10 @@ ul li{
     width: 201.5px;
     height: 398px;
     padding:0;
+}
+.showBody ul li a{
+    text-decoration: none;
+    color: black;
 }
 .productFirst,.productSecond,.productThird{
     border-right: 1px solid gainsboro;

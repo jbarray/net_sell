@@ -83,6 +83,9 @@ ul li{
     margin-top: 23px;
     margin-right: 10px;
 }
+.shopCar a{
+    color: white;
+}
 .shopText{
     background: url("../imgs/imge/shopCar.jpg")10px center no-repeat ; text-indent: 40px;
     font-size: 14px;
