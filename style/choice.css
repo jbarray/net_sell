@@ -124,7 +124,7 @@
 .choice a{
     color:#1d7ad9;
 }
-.choice .more a{
+.moreList a{
     color: #000;
 }
 .choice a:hover{
@@ -282,13 +282,14 @@
     /*width: 115px;*/
 /*}*/
 .row .more{
-    margin-left: 550px;
-    margin-top: -30px;
+    /*margin-left: 50px;*/
+    /*margin-top: -30px;*/
     margin-right: 0;
+    border:1px solid red;
     position: absolute;
     float: right;
     text-align: right;
-    width: 100px;
+    width: 70px;
 }
 .row3 .more{
     padding-top: 8px;
@@ -299,6 +300,17 @@
 .more img{
     width:12px;
     height:12px;
+}
+.moreList{
+    position: absolute;
+    margin-left: 960px;
+    margin-top: -215px;
+}
+#firstMore{
+    margin-bottom: 63px;
+}
+#secondMore{
+    margin-bottom: 57px;
 }
 select{
     border:1px solid #dcdcdc;
