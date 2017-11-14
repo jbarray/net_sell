@@ -27,7 +27,7 @@
     background-color: white;
 }
 .content{
-    width: 458px;
+    width: 630px;
     margin:10px auto;
     position: relative;
     border:1px solid #e1e1e1;
@@ -48,11 +48,19 @@
     border:1px solid #e1e1e1;
     line-height: 32px\9;
 }
-.accountMassage .img{
+.accountMassage img{
     position: absolute;
     float: right;
     margin-left: 280px;
     margin-top:-28px;
+    width:14px;
+    height:14px;
+}
+#form img{
+    position: absolute;
+    float: right;
+    margin-left: -25px;
+    margin-top:13px;
     width:14px;
     height:14px;
 }
@@ -104,30 +112,52 @@
 }
 /*注册部分*/
 #form span{
+    text-align: right;
     display: inline-block;
-    width: 60px;
-    margin-left: 10px;
+    width: 80px;
+    margin-right: 20px;
+}
+#form i{
+    color: red;
 }
 #form input{
-    width: 170px;
+    width: 270px;
+    height: 35px;
     border:1px solid  #e1e1e1;
 }
 #form div{
     margin-top: 10px;
     margin-bottom: 10px;
-
+    color:#999999;
+    font-size: 13px;
 }
 #form .hind{
     margin-left: 90px;
     opacity: 0;
 }
+#form #agree{
+    width: 12px;
+    height: 12px;
+    margin:5px 5px 0 100px;
+}
+#agree,prep{
+    vertical-align: bottom;
+}
+.agreeLabel{
+    margin-bottom: 35px;
+    margin-top: 55px;
+}
 #content{
-    width: 300px;
     text-align: left;
-    margin-left: 70px;
+    margin-left: 100px;
+    margin-top: 70px;
 }
 #sort-btn{
-    margin-bottom: 50px;
+    margin-bottom: 55px;
+    margin-top: 35px;
+    margin-left: 70px;
+    width: 275px;
+    border: none;
 }
 /*脚注*/
 footer{
