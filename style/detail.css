@@ -3,6 +3,14 @@
     padding: 10px 0 30px 0;
     font-family: 微软雅黑,serif;
 }
+.bodyPart a{
+    color: black;
+}
+.logoBar a{
+    /*color: white;*/
+    text-decoration: none;
+    color: white;
+}
 .bodyPart a:hover{
     color: #000;
 }
@@ -267,6 +275,9 @@
     font-size: 9px;
     color: #999999;
 }
+.kindName a{
+    color: #999999;
+}
 .kindPrice{
     color: #de0000;
     font-family:微软雅黑,serif;
@@ -362,7 +373,7 @@
 }
 /*评价部分*/
 .commentPro{
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .commentHead{
     background-color: white;
@@ -454,6 +465,7 @@
     border-left: 1px solid #cdcdcd;
     border-right: 1px solid #cdcdcd;
     text-align: center;
+    cursor: pointer;
 }
 .rightOrder .rightOrder2{
     margin-left: -3px;
@@ -587,10 +599,11 @@
     height: 30px;
     line-height: 30px;
 }
-.questionTitle{
+.detailTitle ul .questionTitle{
     border-top: 1px solid #0688ba;
     border-right: 1px solid #0688ba;
     border-left: 1px solid #0688ba;
+    cursor: auto;
     /*border-bottom: 1px solid  #11456b;*/
 }
 .detailTitle ul{
@@ -605,6 +618,7 @@
     height: 29px;
     width: 130px;
     text-align: center;
+    cursor: pointer;
 }
 .detail{
     background-color:#f3f3f3;
@@ -620,6 +634,10 @@
     width: 629px;
     margin-top: -31px;
     text-align: right;
+    color: #085c9b;
+    cursor: pointer;
+}
+.help a{
     color: #085c9b;
 }
 #nowPage{

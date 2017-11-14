@@ -73,6 +73,7 @@ ul li{
     font-family: "Microsoft YaHei", "微软雅黑", serif;
     background-color:#ff8c00 ;
     color: white;
+    border:none;
 }
 .shopCar{
     color: white;
@@ -110,7 +111,7 @@ ul li{
     line-height: 35px;
     font-size: 14px;
     font-family: "Microsoft YaHei", "微软雅黑", serif;
-//   background: url("../imgs/imge/shopClassH3.jpg")right center no-repeat;
+    cursor: pointer;
 }
 .shopClass h3{
     padding-left: 41px;

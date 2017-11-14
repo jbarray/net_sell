@@ -7,58 +7,57 @@
     <link href="../style/detail.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-//导航及标题
-    <div class="headerBar">
-        <div class="topBar">
-            <div class="comWidth">
-                <div class="fl">
-                    <a href="#" class="collection">收藏慕课</a>
-                </div>
-                <div class="fr">欢迎来到慕课网!
-                    <a href="#"> [登录]</a>
-                    <a href="#">[免费注册]</a>
-                </div>
+<!--导航及标题-->
+<div class="headerBar">
+    <div class="topBar">
+        <div class="comWidth">
+            <div class="fl">
+                <a href="#" class="collection">收藏慕课</a>
             </div>
-        </div>
-        <div class="logoBar">
-            <div class="comWidth">
-                <div class="logo">
-                    <a href="#"><img src="../imgs/imge/blueLogo.jpg" alt="慕课网"></a>
-                </div>
-                <div class="search_box">
-                    <label>
-                        <input  class="search_text fl" placeholder="输入 手机 试试..."/>
-                    </label>
-                    <button class="search_btn fr">搜索</button>
-                </div>
-                <div class="shopCar">
-                    <span class="shopText fl">购物车</span>
-                    <span class="shopNum fr">0</span>
-                </div>
-            </div>
-        </div>
-        <div class="navBox">
-            <div class="comWidth">
-                <div class="shopClass fl">
-                    <h3>全部商品分类<i><img src="../imgs/icon/downRocket_white.png"/></i></h3>
-                </div>
-                <ul class="nav fl">
-                    <li><a href="#" class="active">数码城</a></li>
-                    <li><a href="#">天黑黑</a></li>
-                    <li><a href="#">团购</a></li>
-                    <li><a href="#">发现</a></li>
-                    <li><a href="#">二手特卖</a></li>
-                    <li><a href="#">名品会</a></li>
-                </ul>
+            <div class="fr">欢迎来到慕课网!
+                <a href="load.html"> [登录]</a>
+                <a href="create_account.html">[免费注册]</a>
             </div>
         </div>
     </div>
-//正文部分
-    <div class="bodyPart">
+    <div class="logoBar">
         <div class="comWidth">
-            //产品信息 上半部分
-            <div class="productBuy">
-                <div class="productBar"><span>首页 </span>> 平板电脑 > Apple 苹果 > MD531CH/A</div>
+            <div class="logo">
+                <a href="index.html"><img src="../imgs/imge/blueLogo.jpg" alt="慕课网"></a>
+            </div>
+            <div class="search_box">
+                <label>
+                    <input  class="search_text fl" placeholder="输入 手机 试试..."/>
+                </label>
+                <button class="search_btn fr">搜索</button>
+            </div>
+            <div class="shopCar">
+                <span class="shopText fl"><a href="shop_car.html"> 购物车</a></span>
+                <span class="shopNum fr"><a href="shop_car.html">0</a></span>
+            </div>
+        </div>
+    </div>
+    <div class="navBox">
+        <div class="comWidth">
+            <div class="shopClass fl">
+                <h3>全部商品分类<i><a href="index.html"><img src="../imgs/icon/downRocket_white.png"/></a></i></h3>
+            </div>
+            <ul class="nav fl">
+                <li><a href="#" class="active">数码城</a></li>
+                <li><a href="#">天黑黑</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">发现</a></li>
+                <li><a href="#">二手特卖</a></li>
+                <li><a href="#">名品会</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bodyPart">
+    <div class="comWidth">
+        <!--产品信息 上半部分-->
+        <div class="productBuy">
+            <div class="productBar"><span><a href="index.html">首页</a>  </span>> 平板电脑 > Apple 苹果 > MD531CH/A</div>
                 <div class="productSelect">
                     <div class="productPicture ">
                         <div class="bigPic"><img src="../imgs/imge/detail/BigPic.jpg"></div>
@@ -74,7 +73,7 @@
                             <div class="property p5"><div class="propertyName ">选择规格</div><div class="sizes"><span name="size" class="beChoice">WIFI Cellular 16G</span><span name="size">WIFI Cellular 64G</span><span name="size">WIFI Cellular 32G</span><span name="size">WIFI 32G</span><span name="size">WIFI 64G</span><br/><span name="size">WIFI 16G</span></div> </div>
                             <div class="property p6"><div class="propertyName fl">数量</div><div class="buyNumber fl"><span class="sign down">-</span><label><input id="productNum" value="1"/></label><span class="sign up">+</span></div><div class="lim ">限购<span class="orange">9</span>件</div></div>
                         </div>
-                        <div class="property p7"><div class="propertyName fl">已选择</div><span >“<b id="color">白色</b>|<b id="size">WIFI 16G”</b> </span></div>
+                        <div class="property p7"><div class="propertyName fl">已选择</div><span >“<b id="color">白色</b>|<b id="size">WIFI 16G”</b></span></div>
                         <div class="inToProperty p8">
                             <a href="shop_car.html"><div class="inTo"><img src="../imgs/imge/detail/buyCar.jpg"><span> 加入购物车</span></div></a>
                             <span class="line"></span>
@@ -84,64 +83,64 @@
                     </div>
                 </div>
             </div>
-            //下半部分
+            <!--下半部分-->
             <div class="productIntroduce">
-                //左边产品列表
+                <!--左边产品列表-->
                 <div class="digitKinds fl">
                     <div class="part part1">
-                        <div class="kindsTitle">同价位</div>
+                        <div class="kindsTitle" id="kindsTitle">同价位</div>
                         <ul>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left1.jpg"> </div>
-                                <div class="kindName">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </div>
+                                <div class="kindName" ><a href="#kindsTitle">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话</a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left2.jpg"> </div>
-                                <div class="kindName">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </div>
+                                <div class="kindName"><a href="#kindsTitle">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left3.jpg"> </div>
-                                <div class="kindName">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </div>
+                                <div class="kindName"><a href="#kindsTitle">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left4.jpg"> </div>
-                                <div class="kindName">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </div>
+                                <div class="kindName"><a href="#kindsTitle">Samsung 三星 GALAXY Tab 3 8.0 WLAN版本 T310平板电话 </a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                         </ul>
                     </div>
                     <div class="part">
-                        <div class="kindsTitle">看了最终买</div>
+                        <div class="kindsTitle" id="kindsTitle2">看了最终买</div>
                         <ul>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left5.jpg"> </div>
-                                <div class="kindName">Apple 苹果 iPaad mini 配备 Retina 显示屏 ME280CH/A  </div>
+                                <div class="kindName"><a href="#kindsTitle2"> Apple 苹果 iPaad mini 配备 Retina 显示屏 ME280CH/A  </a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left6.jpg"> </div>
-                                <div class="kindName">某某品牌 配备 Retina 显示屏 IPS </div>
+                                <div class="kindName"><a href="#kindsTitle2">某某品牌 配备 Retina 显示屏 IPS </a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                             <li class="kind">
                                 <div class="kindPicture"><img src="../imgs/imge/detail/left7.jpg"> </div>
-                                <div class="kindName">某某品牌 配备 Retina 显示屏 IPS  </div>
+                                <div class="kindName"><a href="#kindsTitle2">某某品牌 配备 Retina 显示屏 IPS  </a></div>
                                 <div class="kindPrice">¥3588.00</div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                //右边产品详情,评价及问题
+                <!--右边产品详情,评价及问题-->
                 <div class="ProduceBody">
                     <div class="introducePro">
                         <div class="title">
-                            <div class="introduce fl">
+                            <div class="introduce fl" id="productDetail">
                                 <img src="../imgs/icon/doc_white.png"> <span>产品介绍</span>
                             </div>
-                            <div class="comment fr "><a href="evaluate.html">
+                            <div class="comment fr "><a href="evaluate.html#productComment">
                                 <img src="../imgs/icon/massage.png"><span>商品评价(18782)</span></a>
                             </div>
                         </div>
