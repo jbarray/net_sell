@@ -21,6 +21,7 @@ searchBtn[0].addEventListener('click',function(){
 /*产品颜色的选择*/
 colorChange();
 sizeChange();
+picChange();
 // pageChange();
 function  colorChange(){
     if(document.getElementsByName('color')){
@@ -107,3 +108,26 @@ downNum[0].onclick=function(){
 //         /*选择产品尺寸和颜色后,显示已选择的内容*/
 //     }
 // }
+/*小图相互变化*/
+function  picChange() {
+    if (document.getElementsByName('img')) {
+        var sizeLink = document.getElementsByName('img');
+        for (var i = 0; i < sizeLink.length; i++) {
+            sizeLink[i].className = 'notChoice';
+            sizeLink[0].className = 'beChoice';
+            sizeLink[i].onclick = clickPic;
+        }
+    }
+}
+function clickPic() {
+    var target = event.currentTarget;
+    var sizeLink = document.getElementsByName('img');
+    if (document.getElementsByName('img')) {
+        for (var i = 0; i < sizeLink.length; i++) {
+            if (sizeLink[i].className = 'beChoice') {
+                sizeLink[i].className = 'notChoice';
+            }
+        }
+        target.className = 'beChoice';
+    }
+}
