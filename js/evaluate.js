@@ -6,6 +6,7 @@ var productSize=document.getElementById('size');
 var upNum=document.getElementsByClassName('up');
 var downNum=document.getElementsByClassName('down');
 var productNumber=document.getElementById('productNum');
+// var className=document.getElementsByClassName('shopClass');
 /*input输入框(如果输入手机,跳转至choice页面)*/
 function input() {
     if(searchValue[0].value==="手机"){
@@ -21,7 +22,6 @@ searchBtn[0].addEventListener('click',function(){
 /*产品颜色的选择*/
 colorChange();
 sizeChange();
-// pageChange();
 function  colorChange(){
     if(document.getElementsByName('color')){
         var arrLink=document.getElementsByName('color');
@@ -81,3 +81,4 @@ downNum[0].onclick=function(){
         productNumber.value--;
     }
 };
+/*商品分类-鼠标放置时,出现下拉菜单*/
