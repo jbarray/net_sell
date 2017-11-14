@@ -9,13 +9,16 @@
     line-height: 36px;
     height: 31px;
 }
+.topBar a{
+    color: #1369c0;
+}
 .collection{
     background: url("../imgs/icon/star.jpg")left center no-repeat;
     padding-left: 19px;font-weight: bold;
 }
-.topBar a:hover{
-    color: red;
-}
+/*.topBar a:hover{*/
+    /*color: red;*/
+/*}*/
 /*top的第二部分logoBar*/
 .logoBar{
     background-color:royalblue;
@@ -118,10 +121,13 @@
     padding-top: 17px;
     padding-bottom: 10px;
 }
-.digitContent a{
+.choice a{
     color:#1d7ad9;
 }
-.digitContent a:hover{
+.choice .more a{
+    color: #000;
+}
+.choice a:hover{
     color: red;
 }
 .content{
@@ -164,6 +170,9 @@
     line-height: 25px;
     color:#555555;
 }
+.leftKind a{
+    color:#555555;
+}
 .kindName{
     color: #555555;
     font-weight: bold;
@@ -193,6 +202,12 @@
 .massage{
     padding-left: 15px;
     color:#999999;
+}
+.massage a{
+    color:#999999;
+}
+.massage a:hover{
+    color: #000;
 }
 .massage div{
     color:#666666;
@@ -354,6 +369,9 @@ select{
     width:200px;
     display: inline-block;
 }
+.digitProClass option{
+    width: 50px;
+}
 .figure{
     line-height: 35px;
     margin-right: 85px;
@@ -385,6 +403,9 @@ select{
     width: 195px;
     /*margin:0 15px 0 55px;*/
 }
+.line a{
+    color: #000;
+}
 .proName{
     margin:15px 0;
     height: 32px;
@@ -396,6 +417,9 @@ select{
     font-size: 13px;
 }
 .line .comment{
+    color:#1d7ad9;
+}
+.line .comment a{
     color:#1d7ad9;
 }
 .toBuyCar{
@@ -417,17 +441,4 @@ select{
 }
 .proComment{
     margin:0 5px ;
-}
-/*脚注*/
-footer{
-    background-color: #aeaeae;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    line-height: 25px;
-}
-footer ul li{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 15px;
 }
