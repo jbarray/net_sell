@@ -1,8 +1,5 @@
 // var searchValue=document.getElementsByClassName('search_text');
 var searchBtn=document.getElementsByClassName('search_btn');
-// var selectClass=document.getElementsByClassName('selectClass');
-// var specificClass=document.getElementsByClassName('specificClass');
-var selectClass1=document.getElementsByClassName('selectClass1');
 var buttonClass=document.getElementsByClassName('shopClass');
  var beChangeClass=document.getElementsByClassName('productClass');
 /*input输入框(如果输入手机,跳转至choice页面)*/
@@ -13,12 +10,12 @@ searchBtn[0].addEventListener('click',function(){
     input();
 });
 /*点击左导航栏第一行跳转至手机筛选页面*/
-function toChoice(){
-    window.open('../html/choice.html');
-}
-selectClass1[0].addEventListener('click',function(){
-    toChoice();
-});
+// function toChoice(){
+//     window.open('../html/choice.html');
+// }
+// selectClass1[0].addEventListener('click',function(){
+//     toChoice();
+// });
 /*左导航栏点击第一行的效果*/
 // function phoneButton(){
 //     // for(var i=0;i<selectClass.length-1;i++){
@@ -58,3 +55,32 @@ beChangeClass[0].onmouseover=function(){
 beChangeClass[0].onmouseout=function(){
     beChangeClass[0].style.display='none';
 };
+/*点击左侧菜单,颜色的变化*/
+function  selectClass() {
+    if(document.getElementsByName('selectClass')){
+        var arrLink=document.getElementsByName('selectClass');
+        for(var i=0;i<arrLink.length;i++){
+            arrLink[i].className='notChoice';
+            arrLink[1].className='nowChoice';
+            arrLink[i].onclick=clickClass;
+        }
+    }
+}
+function clickClass(){
+    var target = event.currentTarget;
+    if (document.getElementsByName('selectClass')) {
+        var arrLink = document.getElementsByName('selectClass');
+        for (var i = 0; i < arrLink.length; i++) {
+            if (arrLink[i].className = 'nowChoice') {
+                arrLink[i].className = 'notChoice';
+            }
+        }
+        for(var j=0;j<arrLink.length;j++){
+            if(j=5)
+                target.className = 'lastChoice';
+            else
+                target.className = 'nowChoice';
+        }
+    }
+}
+selectClass();

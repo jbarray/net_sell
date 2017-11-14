@@ -120,7 +120,7 @@
     background-color: #4593FD;
     /*display: none;*/
 }
-.selectClass{
+.productClass li{
     background-color:#4593fd;
     padding:14px 10px;
     width:170px;
@@ -133,10 +133,27 @@
     border-top: 1px solid #5aa1fe;
     /*遗留:加三角符号*/
 }
-.selectClass1{
+#selectClass1{
     border-top: none;
 }
-.importantProduct{
+.productClass .notChoice{
+    background-color:#4593fd;
+    color: white;
+}
+.productClass .nowChoice{
+    background-color: white;
+    color: black;
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+}
+.productClass .lastChoice{
+    background-color: white;
+    color: black;
+    border-left:1px solid gainsboro;
+    border-right:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+}
+.productClass .importantProduct{
     background-color: #1369c0;
     font-size: 12px;
     text-decoration: underline;
@@ -145,7 +162,7 @@
     margin-left: 12px;
     line-height: 18px;
 }
-.importantClass{
+.productClass .importantClass{
     background-color: #1369c0;
     font-size: 12px;
     border-radius: 10px;
@@ -154,14 +171,14 @@
     margin-left: 10px;
     line-height: 18px;
 }
-.selectClass.squareRight,.selectClass span{
+.productClass .selectClass.squareRight,.productClass .selectClass span{
     vertical-align: top;
 }
-.squareRight img{
+.productClass .squareRight img{
     margin-left: 2px;
     margin-top: 1px;
 }
-.foodClass .importantClass{
+#foodClass .importantClass{
     background-color: #1369c0;
     font-size: 12px;
     border-radius: 10px;
@@ -169,14 +186,8 @@
     margin-left: 8px;
     line-height: 18px;
 }
-.normalProduct{
+.productClass .normalProduct{
     font-size: 12px;
-}
-.nowClass{
-    background-color: white;
-    color: black;
-    border-left:1px solid gainsboro;
-    border-right:1px solid gainsboro;
 }
 .AD{
     /*margin-left:400px;*/
