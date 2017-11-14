@@ -29,6 +29,9 @@ ul li{
     margin-left: auto;
     margin-right: auto;
 }
+a{
+    text-decoration: none;
+}
 /*top的第一部分topBar*/
 .topBar{
     background-color:#f7f7f7;
@@ -39,9 +42,9 @@ ul li{
     background: url("../imgs/icon/star.jpg")left center no-repeat;
     padding-left: 19px;font-weight: bold;
 }
-/*.topBar a:hover{*/
-    /*color: red;*/
-/*}*/
+.topBar a{
+    color: black;
+}
 /*top的第二部分logoBar*/
 .logoBar{
     background-color:royalblue;
@@ -110,6 +113,9 @@ ul li{
     background-color: #1369c0;
     color: white;
 }
+.navBox a {
+    color: white;
+}
 .shopClass{
     line-height: 35px;
     font-size: 14px;
@@ -148,4 +154,17 @@ ul li{
 }
 .orangeBackground{
     background-color: darkorange;
+}
+/*脚注*/
+footer{
+    background-color: #d4d4d4;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+footer ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
 }

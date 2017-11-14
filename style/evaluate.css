@@ -92,7 +92,6 @@
     color: white;
 }
 .activitySquare{
-    display:block;
     width:0;
     height:0;
     border-width:9px 9px 9px 0;
@@ -100,7 +99,8 @@
     border-color:transparent darkorange transparent transparent;/*透明 黄 透明 透明 */
     position:absolute;
     /*margin-top: 2px;*/
-    margin-left: 64px;
+    margin-left: 80px;
+    margin-top: -35.6px;
 }
 /*遗留问题:小圆*/
 .circle{
@@ -285,6 +285,9 @@ body .beChoice{
 .kindName a{
     color: #999999;
 }
+.kindName a:hover{
+    color: black;
+}
 .kindPrice{
     color: #de0000;
     font-family:微软雅黑,serif;
@@ -429,7 +432,7 @@ body .beChoice{
 .mark{
     text-align: center;
     width:26px;
-    height: 16px;
+    height: 17px;
     margin-left: 415px;
     margin-bottom: 5px;
     /*padding-right: 10px;*/
@@ -694,17 +697,6 @@ display: inline-block;
 /*.beChoice{*/
     /*border:1px solid #317ee7;*/
 /*}*/
-
-/*脚注*/
-footer{
-    background-color: #d4d4d4;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    line-height: 25px;
-}
-footer ul li{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 15px;
+body .notChoice{
+    border:1px solid #cccccc;
 }

@@ -9,6 +9,9 @@
     line-height: 36px;
     height: 31px;
 }
+.topBar a{
+    color: #1369c0;
+}
 .collection{
     background: url("../imgs/icon/star.jpg")left center no-repeat;
     padding-left: 19px;font-weight: bold;
@@ -380,17 +383,4 @@ ul li{
 }
 .More a{
     color:black;
-}
-/*脚注*/
-footer{
-    background-color: #aeaeae;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    line-height: 25px;
-}
-footer ul li{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 15px;
 }
