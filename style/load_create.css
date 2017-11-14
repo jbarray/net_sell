@@ -30,6 +30,8 @@
     width: 458px;
     margin:10px auto;
     position: relative;
+    border:1px solid #e1e1e1;
+    text-align: center;
 }
 .login_cont{
     padding:15px 76px;
@@ -51,6 +53,8 @@
     float: right;
     margin-left: 280px;
     margin-top:-28px;
+    width:14px;
+    height:14px;
 }
 .detail{
     margin-bottom: 28px;
@@ -66,13 +70,21 @@
 .otherMethod{
     padding-top: 34px;
 }
-
+.otherMethod p{
+    line-height: 18px;
+}
+.otherMethod p img{
+    margin:0 0 4px 0;
+}
 .otherMethod p span,.otherMethod p img{
-    vertical-align: top;
+    vertical-align: middle;
 }
 .otherMethod span{
     color: #999;
     margin:0 2px;
+}
+.createAccount{
+    margin-bottom: 50px;
 }
 .createAccount a{
     /*background-color: green;*/
@@ -90,11 +102,38 @@
     right: 31px;
     bottom: -41px;
 }
+/*注册部分*/
+#form span{
+    display: inline-block;
+    width: 60px;
+    margin-left: 10px;
+}
+#form input{
+    width: 170px;
+    border:1px solid  #e1e1e1;
+}
+#form div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#form .hind{
+    margin-left: 90px;
+    opacity: 0;
+}
+#content{
+    width: 300px;
+    text-align: left;
+    margin-left: 70px;
+}
+#sort-btn{
+    margin-bottom: 50px;
+}
 /*脚注*/
 footer{
     background-color: #aeaeae;
     text-align: center;
-    margin-top: 28px;
+    margin-top: 120px;
     padding-top: 40px;
     padding-bottom: 30px;
     line-height: 25px;
