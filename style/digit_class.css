@@ -120,6 +120,9 @@
     line-height: 30px;
     width: 182px;
 }
+.digitKinds a{
+    color: #000;
+}
 .kindsTitle{
     font-size: 15px;
     font-weight: bold;
@@ -228,17 +231,4 @@
 }
 .proComment a,.proComment img{
     vertical-align: top;
-}
-/*脚注*/
-footer{
-    background-color: #aeaeae;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    line-height: 25px;
-}
-footer ul li{
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 15px;
 }
