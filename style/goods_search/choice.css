@@ -1,0 +1,456 @@
+.comWidth{
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*top的第一部分topBar*/
+.topBar{
+    background-color:#f7f7f7;
+    line-height: 36px;
+    height: 31px;
+}
+.topBar a{
+    color: #1369c0;
+}
+.collection{
+    background: url("../../imgs/icon/star.jpg")left center no-repeat;
+    padding-left: 19px;font-weight: bold;
+}
+/*.topBar a:hover{*/
+    /*color: red;*/
+/*}*/
+/*top的第二部分logoBar*/
+.logoBar{
+    background-color:royalblue;
+    height: 85px;
+}
+.logo{
+    float: left;
+    padding-left: 41px;
+    padding-top: 13px;
+}
+.shopCar{
+    float: right;
+}
+.search_box{
+    width: 430px;
+    display: inline-block;
+    padding-left:180px ;
+    margin-top: 23px;
+}
+.search_text{
+    width: 350px;
+    height: 35px;/*ie浏览器中同为35px*/
+    padding:0 5px;
+}
+.search_btn{
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+    background-color:#ff8c00 ;
+    color: white;
+}
+.shopCar{
+    color: white;
+    background-color: #ff8c00;
+    width: 145px;
+    height: 35px;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+.shopText{
+    background: url("../../imgs/imge/shop_car.jpg")10px center no-repeat ; text-indent: 40px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+    border-right: 1px solid #ff9c01;
+    line-height: 35px;
+    padding-right: 10px;
+    /*margin-top: ;*/
+}
+.shopNum{
+    background: url("../../imgs/imge/shop_car_num.jpg")left center no-repeat;
+    text-indent: 20px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+    line-height: 35px;
+    /*border: 1px solid black;*/
+    padding-right: 10px;
+}
+/*导航*/
+.navBox{
+    height: 35px;
+    background-color: #1369c0;
+    color: white;
+}
+.shopClass{
+    line-height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+//   background: url("../../imgs/imge/shopClassH3.jpg")right center no-repeat;
+}
+.shopClass h3{
+    padding-left: 43px;
+    padding-right: 24px;
+    /*width:187px;*/
+    /*text-align: right;*/
+}
+.shopClass img{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.nav{
+    display: inline-block;
+    line-height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", serif;
+}
+.nav li{
+    float: left;
+}
+.nav a{
+    padding:0 35px;
+    color: white;
+    display: inline-block;
+}
+.active{
+    background-color: #4593FD;
+}
+/*Class部分*/
+.digitContent{
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+.choice a{
+    color:#1d7ad9;
+}
+.moreList a{
+    color: #000;
+}
+.choice a:hover{
+    color: red;
+}
+.content{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 50px;
+}
+.digitKinds{
+    border:1px solid #d7d7d7;
+    background-color:#f3f3f3;
+    font-family: 微软雅黑, serif;
+    line-height: 30px;
+    width: 190px;
+}
+.kindsTitle{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #cdcdcd;
+    padding:0 20px;
+}
+.kind{
+    border-bottom: 1px dashed #cdcdcd;
+    padding: 12px 0 10px 0;
+    vertical-align: top;
+}
+.kind3{
+    border-bottom: 1px solid #cdcdcd;
+}
+.lastKind{
+    border-bottom:none;
+}
+.kind ul{
+    vertical-align: top;
+}
+.leftKind{
+    display: inline-block;
+    width: 65px;
+    padding-left: 20px;
+    line-height: 25px;
+    color:#555555;
+}
+.leftKind a{
+    color:#555555;
+}
+.kindName{
+    color: #555555;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+    margin-left: 12px;
+}
+#leftPro{
+    background-color: white;
+    padding-top:10px;
+    padding-right: 9px;
+    padding-left: 13px;
+    line-height: 20px ;
+}
+#leftPro li{
+    height: 80px;
+}
+#leftPro a{
+    color:#999999;
+}
+.leftPic{
+    width: 70px;
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    text-align: center;
+}
+.massage{
+    padding-left: 15px;
+    color:#999999;
+}
+.massage a{
+    color:#999999;
+}
+.massage a:hover{
+    color: #000;
+}
+.massage div{
+    color:#666666;
+}
+/*右边开始*/
+.choice{
+    margin-left: 205px;
+    padding-top: 12px;
+}
+.feature{
+    margin-left: 5px;
+    border-bottom:1px dashed #dddddd;
+}
+.borderSpecialFea{
+    border-bottom:1px solid #d9d9d9;
+    margin-left: 5px;
+}
+.borderSpecialFea li{
+    margin-right: 100px;
+}
+.featureName{
+    color:#999999;
+    display: inline-block;
+    width: 80px;
+    padding:10px 40px 10px 0;
+    line-height: 15px;
+    text-align: right;
+}
+.borderSpecialFea .featureName,.row{
+    vertical-align: top;
+}
+.digitContent .row .undefined{
+    width: 30px;
+    height: 14px;
+    margin-right: 30px;
+    background-color: #1d7ad9;
+    padding:5px ;
+    margin-top: 5px;
+}
+.digitContent .row .undefined a{
+    color: white;
+}
+.digitContent .row .more {
+    color:#333333;
+}
+.digitContent .row .undefinedBlank{
+    width: 30px;
+    height: 1px;
+    background-color: white;
+    /*margin-right: 30px;*/
+    /*background-color: #1d7ad9;*/
+}
+.row{
+    display: inline-block;
+}
+.row li{
+    color:#1d7ad9;
+    display: inline-block;
+    line-height: 15px;
+    padding:5px 10px 5px 0;
+}
+.row2 li{
+    width: 110px;
+}
+.row3 li{
+    width: 160px;
+}
+.row4 li{
+    width: 100px;
+}
+/*.row5 li{*/
+    /*width: 115px;*/
+/*}*/
+.row .more{
+    /*margin-left: 50px;*/
+    /*margin-top: -30px;*/
+    margin-right: 0;
+    border:1px solid red;
+    position: absolute;
+    float: right;
+    text-align: right;
+    width: 70px;
+}
+.row3 .more{
+    padding-top: 8px;
+}
+.row5 .more{
+     padding-top: 8px;
+ }
+.more img{
+    width:12px;
+    height:12px;
+}
+.moreList{
+    position: absolute;
+    margin-left: 960px;
+    margin-top: -215px;
+}
+#firstMore{
+    margin-bottom: 63px;
+}
+#secondMore{
+    margin-bottom: 57px;
+}
+select{
+    border:1px solid #dcdcdc;
+    /*padding: 5px;*/
+    height: 22px;
+   padding-bottom: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*margin-bottom: 2px;*/
+    /*遗留问题:框内出现向下箭头*/
+}
+.choice select{
+    background: url("../../imgs/icon/down_rocket_black.png")no-repeat right center;
+    background-color: white;
+    padding:0 18px 0 8px;
+    line-height: 23px;
+    height: 23px;
+    /*width: 87px;*/
+    margin-bottom: 2px;
+}
+.showTitle select{
+    padding-right: 24px;
+    padding-left: 12px;
+    background: url("../../imgs/icon/square_up.png")no-repeat right center;
+    background-color: white;
+    margin-bottom: 2px;
+    line-height: 22px;
+}
+/*展示商品*/
+.showProduct{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.digitPro ul{
+    padding: 0 0 15px 60px;
+    margin-top: -2px;
+}
+.digitPro ul li{
+    display: inline-block;
+    /*width: 170px;*/
+    /*padding:0 15px;*/
+    padding-right: 36px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.firstLine{
+    /*border-top:2px solid darkgray ;*/
+}
+.showTitle{
+    background-color:#f5f5f5;
+    border: 1px solid #d9d9d9;
+    color: #333333;
+    font-size: 15px;
+    height: 33px;
+    line-height: 33px;
+    font-family: "Adobe 宋体 Std L",serif;
+}
+/*.showTitle select{*/
+    /**/
+/*}*/
+.showTitle div{
+    vertical-align: bottom;
+}
+.digitProClass{
+    padding:2px 10px;
+    width:200px;
+    display: inline-block;
+}
+.digitProClass option{
+    width: 50px;
+}
+.figure{
+    line-height: 35px;
+    margin-right: 85px;
+}
+.figure label{
+    color: black;
+}
+.figure{
+    color: #999999;
+}
+.figure span{
+    color:#d70000;
+}
+/*.blank {*/
+    /*display: inline-block;*/
+    /*width: 649px;*/
+    /*height: 50px;*/
+    /*border-bottom: 2px solid darkgray;*/
+    /*margin-left: -3px;*/
+/*}*/
+/*商品展示*/
+.line img{
+    margin-top: -2px;
+}
+/*.line ul{*/
+    /*margin-left: 20px;*/
+/*}*/
+.line ul li{
+    width: 195px;
+    /*margin:0 15px 0 55px;*/
+}
+.line a{
+    color: #000;
+}
+.proName{
+    margin:15px 0;
+    height: 32px;
+}
+.proPrice{
+    color: #d70000;
+    margin:0 10px 0 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.line .comment{
+    color:#1d7ad9;
+}
+.line .comment a{
+    color:#1d7ad9;
+}
+.toBuyCar{
+    border: 1px solid #c3d5e7;
+    margin:15px 30px 5px 0;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.line .toBuyCar a{
+    color: #3679bf;
+}
+.toBuyCar img{
+    margin-right: 4px;
+}
+.toBuyCar img,.toBuyCar span{
+    vertical-align: middle;
+}
+.proComment{
+    margin:0 5px ;
+}
