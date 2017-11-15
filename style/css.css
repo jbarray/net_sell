@@ -90,7 +90,7 @@ a{
     color: white;
 }
 .shopText{
-    background: url("../imgs/imge/shopCar.jpg")10px center no-repeat ; text-indent: 40px;
+    background: url("../imgs/imge/shop_car.jpg")10px center no-repeat ; text-indent: 40px;
     font-size: 14px;
     font-family: "Microsoft YaHei", "微软雅黑", serif;
     border-right: 1px solid #ff9c01;
@@ -99,7 +99,7 @@ a{
     /*margin-top: ;*/
 }
 .shopNum{
-    background: url("../imgs/imge/shopCarNum.jpg")left center no-repeat;
+    background: url("../imgs/imge/shop_car_num.jpg")left center no-repeat;
     text-indent: 20px;
     font-size: 14px;
     font-family: "Microsoft YaHei", "微软雅黑", serif;
