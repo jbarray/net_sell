@@ -463,7 +463,7 @@ body .beChoice{
     height:0;
     border-width:5px 4px 0;
     border-style:solid;
-    border-color:dimgray transparent transparent;/*黄 透明 透明 */
+    border-color:dimgray transparent transparent;/*灰色 透明 透明 */
     position:absolute;
     margin-left: 7px;
 }
@@ -513,13 +513,25 @@ body .beChoice{
     position: absolute;
     margin-left: 730px;
     margin-top: -8px;
-    padding:0 3px;
+    padding:2px 3px;
     width: 24px;
-    height: 12px;
+    height: 8px;
+    /*font-size: 10px;*/
     background-color:#e40003;
     font-weight: bold;
     color: white;
-    line-height: 12px;
+    line-height: 8px;
+}
+#newSquare{
+    width:0;
+    height:0;
+    border-width:2px 2px 2px 2px;
+    border-style:solid;
+    border-color:#e40003 transparent transparent #e40003;/*红色 红色 透明 透明 */
+    position:absolute;
+    float: left;
+    margin-left: -3px;
+    margin-top: 1px;
 }
 .commentBody{
     background-color: white;
