@@ -4,11 +4,12 @@ body,ul,ol,p,form,fieldset,table,td,img,dl,dt,dd,input,h1,h2,h3,h4,h5,h6,div,spa
 }
 body{
     font-size: 12px;
+    font-family: "Adobe 宋体 Std L",serif;
 }
 img{
     border: none;
 }
-input,select,textarea{
+input,textarea{
     outline: none;
     border:none;
 }

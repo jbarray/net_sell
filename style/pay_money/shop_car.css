@@ -141,18 +141,15 @@ label input{
     height: 21px;
     width: 110px;
     border:1px solid  #c2c2c2;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
 }
 #name select{
     line-height: 21px;
     height: 21px;
     width: 50px;
     border:1px solid  #c2c2c2;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
+    /*-moz-appearance: none;*/
+    /*-webkit-appearance: none;*/
+    /*appearance: none;*/
 }
 #name input{
     width: 140px;

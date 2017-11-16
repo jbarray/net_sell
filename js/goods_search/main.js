@@ -5,10 +5,10 @@ var buttonClass=document.getElementsByClassName('shopClass');
 /*input输入框(如果输入手机,跳转至choice页面)*/
 function input() {
     if(searchValue[0].value==="手机"){
-        window.open('../../html/product_introduce/detail.html');
+        window.open('product_introduce/detail.html');
     }
     else{
-        window.open('../../html/other/not_found.html');
+        window.open('other/not_found.html');
     }
 }
 searchBtn[0].addEventListener('click',function(){
