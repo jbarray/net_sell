@@ -175,33 +175,50 @@
 }
 .buyNumber{
     margin-right: 10px;
-    font-size: 14px;
-    height: 32px;
-}
-.buyNumber label input{
-    border-top:1px solid darkgray;
-    border-bottom:1px solid darkgray;
-    padding:3px 5px 3px 15px;
-    width: 20px;
-    height: 22px;
-    line-height: 22px;
-    margin-top: -10px;
-    background-color:#ffffff;
-}
-.buyNumber .sign{
+    margin-top: -8px;
     border:1px solid darkgray;
-    padding:4.5px 5px;
-    height: 22px;
-    line-height: 22px;
+    font-size: 14px;
+    width: 82px;
+    /*height: 32px;*/
+}
+#productNum{
+    /*padding:3px 5px 3px 15px;*/
+    height: 32px;
+    width: 46px;
+    margin-bottom: -1px;
+    line-height: 32px;
+    /*margin-top: -10px;*/
+    background-color:#ffffff;
+    border-left:1px solid darkgray;
+    border-right:1px solid darkgray;
+}
+.buyNumber #signDown{
+    /*border-right:1px solid darkgray;*/
+    /*padding:4.5px 5px;*/
+    height: 32px;
+    line-height: 32px;
+    width:15px;
+    float: left;
     background-color:#efefef;
     cursor: pointer;
 }
-.buyNumber .sign,.buyNumber label input{
+.buyNumber #signUp{
+    /*border-left:1px solid darkgray;*/
+    /*padding:4.5px 5px;*/
+    line-height: 32px;
+    height: 32px;
+    width:15px;
+    float: right;
+    background-color:#efefef;
+    cursor: pointer;
+}
+.buyNumber div,.buyNumber label input{
     vertical-align: middle;
-    margin-bottom: -10px;
+    text-align: center;
+    /*margin-bottom: -10px;*/
 }
 .p6 .buyNumber,.p6 .lim{
-    vertical-align: bottom;
+    vertical-align:bottom;
 }
 #CustomerSelect{
     background-color:#f2f2f2;
@@ -372,7 +389,7 @@
     margin-left: -3px;
     display: inline-block;
 }
-.wordTitle div,span{
+.wordTitle div,.wordTitle span{
     vertical-align:bottom;
 }
 .content{

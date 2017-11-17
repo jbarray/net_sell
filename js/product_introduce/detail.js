@@ -3,8 +3,8 @@ var searchValue=document.getElementsByClassName('search_text');
 var searchBtn=document.getElementsByClassName('search_btn');
 var productColor=document.getElementById('color');
 var productSize=document.getElementById('size');
-var upNum=document.getElementsByClassName('up');
-var downNum=document.getElementsByClassName('down');
+var upNum=document.getElementById('signUp');
+var downNum=document.getElementById('signDown');
 var productNumber=document.getElementById('productNum');
 /*input输入框(如果输入手机,跳转至choice页面)*/
 function input() {
@@ -76,10 +76,10 @@ function clickSize() {
 }
 /*数量的变化*/
 /*点击加号*/
-upNum[0].onclick=function(){
-    productNumber.value++;
+upNum.onclick=function(){
+     productNumber.value++;
 };
-downNum[0].onclick=function(){
+downNum.onclick=function(){
     if(productNumber.value>1){
         productNumber.value--;
     }
